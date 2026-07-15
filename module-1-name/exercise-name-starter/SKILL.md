@@ -1,52 +1,34 @@
 ---
-name: gsj-competitor-juice
-description: Weekly competitive and news research on US juice bars and wellness-beverage brands for a marketing team, delivered as a PDF committed to the repo.
+name: gsj-marketing-ops-brief
+description: Generates a weekly marketing operations brief for Groundswell Juice Co summarizing campaign status, content pipeline, and blockers. Use when asked to create a marketing ops brief, weekly marketing summary, or campaign status report for Groundswell.
 ---
 
-# Juice Bar Competitor Research
+# Groundswell Juice Co. — Marketing Operations Brief
 
-Research recent news and competitive activity from US juice and
-wellness-beverage brands, then deliver a dated PDF digest to the repo.
+## When to use this skill
+Use this when generating the recurring internal summary of Groundswell marketing
+activity for leadership visibility — this is a status summary for humans to act
+on, not a publish-ready document, and not something that goes to customers.
 
-Two reference files define this skill's scope and output — read both before
-starting:
+## Process
+1. Read `references/gsj-marketing-ops.xlsx`:
+   - **Campaigns** tab for active campaign status
+   - **Content Calendar** tab for what published vs. what's scheduled this week
+   - **Blockers** tab for anything stalled, and who owns it
+2. Summarize into four sections: Campaign Status, Content Pipeline, Blockers,
+   Needs Decision.
+3. Keep each section to 3-5 bullet points. Flag anything overdue explicitly —
+   don't bury a missed date in neutral language.
+4. Write plainly. This is an internal operations document, not marketing copy —
+   brand voice rules don't apply here.
 
-- `references/competitor-list.md` — the tiered list of brands to search for
-  (Tier 1 direct cold-pressed competitors, Tier 2 adjacent wellness shots,
-  Tier 3 peripheral functional beverages), plus scoping notes on parent
-  companies and exclusions.
-- `references/report-outline.md` — the exact section-by-section structure the
-  final report must follow.
+## Output format
+Markdown or plain text, four sections:
+- **Campaign Status** — one line per active campaign
+- **Content Pipeline** — published vs. scheduled this week
+- **Blockers** — anything stalled, with owner
+- **Needs Decision** — items requiring leadership input this week
 
-## Steps
-
-1. Read `references/competitor-list.md`. Search the web for news from the
-   past 7 days on every brand listed, plus each brand's parent company (a lot
-   of real news — pricing, distribution, reformulation — breaks at the parent
-   level, e.g. PepsiCo for Naked/Poppi, Hain for BluePrint, Keurig Dr Pepper
-   for Bai).
-
-2. Collect items across: new menu items and reformulations (functional
-   add-ins, adaptogens, protein, gut-health blends); openings, closings,
-   expansions, franchise/distribution news; promotions, loyalty, pricing,
-   limited-time offers; partnerships, sponsorships, influencer deals,
-   rebrands; marketing campaigns and notable social/PR moments; funding,
-   M&A, leadership changes; wellness-beverage trends these brands adopt.
-
-3. Rank and select the top 10 items, weighting Tier 1 brands above Tier 2
-   above Tier 3 per `references/competitor-list.md`. Drop anything older than
-   7 days or purely local with no strategic read. If fewer than 10 genuinely
-   relevant items surface, report fewer rather than padding with weak items —
-   note the shortfall in the Methodology & gaps section.
-
-4. Fill out `references/report-outline.md` exactly: top takeaways, the top 10
-   news items (each with date, competitor, category, priority, source,
-   what-happened, why-it-matters, and competitive angle), trends & watch
-   list, and methodology & gaps. Do not drop or rename sections.
-
-5. Render the completed outline to a PDF named
-   `juice-competitors-<YYYY-MM-DD>.pdf`.
-
-6. Save the PDF to the `research-output/` folder in the repo, commit it to a
-   `claude/`-prefixed branch, and open a pull request. Create the folder if
-   it doesn't exist.
+## Notes
+Flag uncertainty rather than guessing at a campaign's status. If the tracker
+doesn't say, say that it's unclear rather than assuming "on track."
