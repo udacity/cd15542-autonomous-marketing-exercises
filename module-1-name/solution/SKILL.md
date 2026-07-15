@@ -1,93 +1,91 @@
 ---
-name: gsj-brand-voice
-description: Review, edit, or write marketing copy for Groundswell Juice Co. (GSJ) so it matches the brand voice. Use whenever you are drafting, rewriting, proofing, or brand-checking anything that speaks as Groundswell — emails, Instagram or other social captions, product-launch copy, community or event announcements, packaging and web copy, or customer-service replies — even when the request doesn't say "brand voice." If copy is for Groundswell, run it through this skill.
+name: gsj-platform-best-practices
+description: Check and adapt GSJ ad and social copy against platform formatting rules and character limits for Google RSA, Meta (Facebook/Instagram), and LinkedIn. Use whenever GSJ copy is being written, reviewed, or fitted for one of these platforms — RSA headlines/descriptions/paths, Meta primary text/headline/description, LinkedIn posts/hashtags — or when someone asks whether copy "fits," is "within limits," or needs trimming for a platform. Counts characters exactly (never estimated) and, when copy is over, reports exactly how many characters over.
 ---
 
-# Groundswell Juice Co. — brand voice
+# GSJ Platform Best Practices
 
-Groundswell's voice sounds like a knowledgeable neighbor who runs a juice counter and actually explains things, not a marketing team performing excitement. Your job with this skill is to make GSJ copy sound that way: informed, grounded, communal, and honest about tradeoffs.
+Validate and adapt Groundswell (GSJ) ad/social copy against each platform's real
+formatting rules and character limits. The limits live in a spec file — **always
+read them from the file, never from memory** — and character counts are always
+**exact, never estimated**.
 
-The single mistake that breaks this voice is the vague, upbeat marketing line — "eco-friendly," "great for you," "sustainably sourced" — with nothing verifiable under it. Groundswell's audience reads ingredient labels and asks where the cups end up. To them, a claim with no specifics reads as a claim the brand can't back up. Specificity is the whole game.
+## Source of truth
 
-## Who we're talking to
+All limits and rules come from:
 
-Informed people who don't need things dumbed down. They read labels, they know what a regenerative farm is, they want to know *which* farm and *why*. Short, punchy, oversimplified copy reads as if the brand doesn't trust them with information, which is the opposite of the goal. Explain things well rather than making them small.
+`references/gsj-platform-specs.xlsx`
 
-## Personality (and the why behind each)
+Three sheets: **Google RSA**, **Meta**, **LinkedIn**. Do not hard-code or recall
+limits — if the file changes, the skill must follow it. To see the current specs:
 
-**People and health first.** Every choice gets filtered through what's actually good for the person drinking it and the person making it, not what's trendy. In practice: explain what an ingredient *does* in the body in plain terms instead of reaching for a label like "superfood."
+```bash
+python3 scripts/check_copy.py --show-specs
+# or one platform:
+python3 scripts/check_copy.py --show-specs --platform "Google RSA"
+```
 
-**Environmentally responsible, and willing to explain why.** The brand never says "eco-friendly" and moves on. It names the farm, the composting partner, the actual pounds diverted, the number of cities covered. A vague green claim is treated as a form of dishonesty, because it takes credit without evidence.
+## The exact-count rule (non-negotiable)
 
-**Communal.** Groundswell is part of a neighborhood, not a business sitting inside one. It shows up to things, funds things, knows people's names. Copy reflects that: real places, real partners, low-friction invitations.
+Never eyeball or estimate a character count. Every count must come from the
+script, which uses `len()` over the raw string. When copy is over a limit, state
+**exactly how many characters over** and how many to trim — the script prints
+this for you.
 
-**Grounded, not glossy.** No forced enthusiasm, no stacked exclamation points, no em dashes. The tone is a friend who knows the subject explaining something they care about. If we say something is good, it's because we checked, not because enthusiasm is the house style.
+## How to check a piece of copy
 
-## Sounds like / doesn't sound like
+Run one field at a time. Prefer `--stdin` so quotes, apostrophes, emoji, and
+newlines in the copy can't break shell quoting:
 
-- **Informed, not vague.** Name the farm and why we chose it. Don't say "sustainably sourced" and leave it — that phrase means nothing without specifics.
-- **Warm and communal, not performative.** Talk like a neighbor who remembers your order. Don't gush.
-- **Practical about health, not clinical or preachy.** Say what an ingredient does, plainly. We're not doctors; we inform, we don't diagnose or moralize.
-- **Honest about tradeoffs, not self-congratulatory.** If a cup isn't compostable everywhere yet, say so and explain what we're doing about it. Don't applaud ourselves for basic responsibility like not dumping waste in a river.
+```bash
+printf '%s' "Cold-Pressed Organic Juice Delivered Daily" \
+  | python3 scripts/check_copy.py --platform "Google RSA" --field "Headline" --stdin
+```
 
-## Preferred terminology
+Or pass it inline with `--text "..."`. Platform names match the sheet tabs
+("Google RSA", "Meta", "LinkedIn"); field names are matched case-insensitively
+and by prefix ("Headline", "Primary text", "Description", "Post length", ...).
 
-Reach for the left column; avoid the right.
+The script prints the exact length, the rule, notes, and a verdict:
+`OK — n/limit, x to spare` or `OVER by x characters — trim x`. Exit code is `0`
+when within limit, `1` when over.
 
-| Use | Avoid |
-|-----|-------|
-| farm partners (name them when you can) | suppliers, vendors |
-| compostable in [X] cities, recyclable elsewhere | eco-friendly, sustainable (with no specifics) |
-| recovery, replenish | detox, cleanse |
-| neighborhood, this block, this city | market, target demo |
-| community fund, local grant | giving back, philanthropy |
-| we checked / we tested | clinically proven (unless it truly is, with a source) |
+For a full ad or post, check **each field separately** (e.g. every RSA headline
+and description, each up to the file's stated maximum count of assets).
 
-The pattern behind the table: swap the marketing abstraction for the concrete, checkable thing. When you find yourself about to write a category word ("sustainable," "philanthropy"), that's the cue to name the actual farm, number, or program instead.
+## Workflow
 
-## Banned words and phrases
+1. Identify the platform and which field each piece of copy maps to.
+2. Run `check_copy.py` per field (use `--stdin`). Report the exact count vs.
+   limit for each.
+3. For anything **over**, say by exactly how many characters, then rewrite to
+   fit — preserving meaning and GSJ brand voice — and re-run the script to
+   confirm the rewrite is within limit.
+4. Apply the non-length rules from the file too (the `Notes` column and the
+   fields with no numeric limit), e.g.:
+   - **Google RSA:** provide enough headlines/descriptions per the file's
+     min/max; each headline must stand alone; don't repeat the same claim; use
+     pinning sparingly.
+   - **Meta:** front-load the essential point in the first ~125 chars of primary
+     text (mobile truncates hardest); supply the right image crop; don't rely on
+     the description showing.
+   - **LinkedIn:** keep external links out of the first line (put them in the
+     first comment); prefer native video/carousels; write the first 2–3 lines to
+     stand alone; end with a genuine question; 3–5 hashtags, no stuffing.
+5. Fields with no numeric limit (image ratio, link display, pinning, native
+   content, engagement window) are guidance — apply the rule, no count needed.
 
-Never use these. They belong to the hype-wellness register this brand is defined against:
+## Notes on counting
 
-- Guilt-free
-- Detox / cleanse
-- Elixir
-- Indulge / indulgent
-- Treat yourself
-- Superfood
-- Self-care (as a marketing hook)
-- Girlboss / hustle-culture language
+- Counts are by character (Unicode code point), matching how these platforms
+  count. An emoji counts as its code points.
+- Meta and LinkedIn limits are engagement/truncation thresholds ("recommended",
+  "no hard cap after ~N"); the script still reports exact overage against the
+  number in the file so you can make an informed trim.
 
-Mechanics, held just as firmly:
+## Brand voice and claims
 
-- **No em dashes, anywhere, in any copy.** Use a period, a comma, or a rewrite. This is non-negotiable and easy to miss, so check for it every time.
-- **At most one exclamation point per piece, and usually zero.** Never stack them. Enthusiasm comes from the substance, not the punctuation.
-
-## Working modes
-
-Figure out whether you're being asked to **review**, **edit**, or **write**, and follow the matching approach. When in doubt, ask, but usually the request makes it clear.
-
-### Review
-Judge the copy against the personality traits, the terminology table, and the banned list, then report specifically. Don't hand back a vague grade like "mostly on brand." Point to the actual lines: quote the phrase, say which principle it violates and why, and offer a concrete in-voice replacement. Flag every banned word, every em dash, every exclamation stack, and every claim that's vague where it should be specific. If the copy is already good, say what's working so it doesn't get edited away later.
-
-### Edit
-Preserve the writer's facts and intent; fix the voice. Keep every real specific they gave you (farm names, numbers, dates, city counts) and keep their meaning. Repair the register: cut hype, replace category words with concrete ones, remove em dashes, settle the punctuation.
-
-Do not invent facts to sound more specific. If the voice calls for a detail the writer didn't provide — a farm name, a pounds-diverted number, a research citation, a city count — do not make one up. Insert a clearly marked placeholder like `[farm name]` or `[X of Y cities]` and note what's needed. A fabricated specific is worse than an honest gap, because this brand's whole credibility rests on its specifics being real.
-
-### Write
-Draft in-voice from the brief. Lead with the reasoning or the actual news, not a teaser. Name real specifics wherever the brief gives them to you. Where a specific is required but unknown, use a marked placeholder (`[farm name]`, `[number] pounds`) rather than filling the gap with a vague claim — a placeholder tells the user exactly what to supply, whereas "sustainably sourced" quietly hides the gap and breaks the voice. Match the length and shape of the channel you're writing for (see the examples below).
-
-## Approved examples
-
-Before finishing a review, edit, or draft, look at `references/approved-examples.md` and calibrate against the piece closest to your channel (email, social caption, or customer service). These are real brand-approved pieces — the clearest picture of the target register, rhythm, and how much specificity the voice expects. Don't copy them; match how they behave. The "same fact, done right vs. wrong" example at the top is the fastest way to recalibrate if a draft feels off.
-
-## Self-check before returning copy
-
-Run this quick pass on anything you're about to hand back:
-
-1. **Em dash scan.** Zero em dashes. Search and confirm.
-2. **Banned-word scan.** None of the banned words or phrases slipped in.
-3. **Exclamation count.** One at most, and only if it earns it. Never stacked.
-4. **Vague-claim check.** Every green or health claim has a specific under it. If something reads like it could appear on any brand's website, make it concrete or cut it.
-5. **Invented-fact check.** Every named specific is one the user actually gave you. Anything you couldn't source is a marked placeholder, not a fabrication.
+This skill governs **fit and formatting only**. It does not check brand voice or
+factual/health/sustainability claims — run `gsj-brand-voice` and
+`gsj-product-accuracy` for those. Order: get the message right (voice + claims),
+then use this skill to fit it to each platform.
