@@ -119,6 +119,25 @@ m03-marketing-skills/
 | the **finished answer** to the exercise | `solution/` |
 | something the **instructor builds or shows in a demo video** | `demo/` |
 | **data a skill reads** (a spreadsheet, a list, a reference doc) | that skill's `references/` folder |
+| a **deliberately broken / error version** of a data file, for a "test your error handling" step | `starter/` (next to the good file) |
+
+### Three things that trip people up
+
+- **Input data is provided *populated*, not blank.** If a skill *reads* a file
+  (a spreadsheet, a list) to do its job, ship it filled in — that's input the
+  learner's agent consumes, not something the learner fills out. A blank file
+  makes the exercise produce empty, meaningless output. (Only give a blank/
+  partial file when *filling it in* is literally the exercise.)
+- **Error/test files live with the exercise they test, not the demo.** A demo
+  can *teach* "test before you ship," but the broken data file the learner
+  actually tests with belongs in that exercise's `starter/`, matched to the
+  exercise's own dataset.
+- **Some exercises don't produce a file at all.** When the deliverable is
+  *external* — a scheduled cloud routine, a connected service, a configured
+  integration — the `starter/` and `solution/` folders can look almost
+  identical (the same provided skill + data). That's expected: the real work
+  lives in the steps, so put it in `INSTRUCTIONS.md`, not in extra solution
+  files.
 
 ---
 
