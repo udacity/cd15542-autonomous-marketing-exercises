@@ -1,3 +1,6 @@
 .DS_Store
 .vscode
 
+
+# Stray CCA audit-log fragment (belongs to the course repo, not here)
+pipeline-log.md
