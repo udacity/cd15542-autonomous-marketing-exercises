@@ -27,9 +27,9 @@ subfolders — one per kind of thing in the module:
 
 ```
 m<NN>-<content-name>/
-├── <exercise-name>-starter/    ← what the LEARNER is given to start (+ INSTRUCTIONS.md)
-├── solution/                   ← the finished EXERCISE solution
-└── demo/                       ← artifacts the instructor builds/uses on-screen in DEMO videos
+├── starter/     ← what the LEARNER is given to start (+ INSTRUCTIONS.md)
+├── solution/    ← the finished EXERCISE solution
+└── demo/        ← artifacts the instructor builds/uses on-screen in DEMO videos
 ```
 
 - Not every module has all three. A module with no demo has just
@@ -50,10 +50,14 @@ m<NN>-<content-name>/
   note in the repo README.
 - After the prefix, use a **content-based name** (`market-intelligence`), not
   a generic one (`module-3`).
-- The **starter** folder ends in `-starter` and names the exercise, e.g.
-  `competitive-intelligence-agent-starter` (no number — only the top folder
-  carries the number).
-- The **solution** folder is just named `solution`.
+- **The three subfolders are named exactly `starter/`, `solution/`, and
+  `demo/`** — nothing else. Don't put the exercise name on them (no
+  `build-skills-starter`). The tooling classifies every file by looking for
+  the words `demo`, `solution`, or `starter` *anywhere in its path* (in that
+  priority order), so a folder whose name is exactly the slot keyword is the
+  safest — an exercise name that happened to contain one of those words could
+  send files to the wrong slot. The exercise's name lives in the module folder
+  and in `INSTRUCTIONS.md`, not on these three.
 - Keep the `.gitkeep` file in an empty `solution/` folder. **Delete it once
   you add real solution files** — it only exists to keep an empty folder in
   git.
@@ -93,7 +97,7 @@ tooling (and the learner) can read it directly.
 
 ```
 m03-marketing-skills/
-├── build-marketing-skills-library-starter/   ← the "provided brand context" the learner gets
+├── starter/                                   ← the "provided brand context" the learner gets
 │   ├── INSTRUCTIONS.md
 │   ├── brand-voice-guide.md                   (raw inputs — learner builds skills FROM these)
 │   ├── approved-examples.md, email-examples.md, social-examples.md, …
@@ -103,7 +107,7 @@ m03-marketing-skills/
 │   ├── gsj-product-accuracy/SKILL.md
 │   └── gsj-platform-best-practices/SKILL.md
 └── demo/                                       ← skills built on-screen in the two demo videos
-    ├── gsj-brand-voice-original-video/SKILL.md
+    ├── gsj-brand-voice/SKILL.md
     └── gsj-platform-best-practices/SKILL.md
 ```
 
@@ -111,7 +115,7 @@ m03-marketing-skills/
 
 | The file is… | It goes in… |
 |---|---|
-| something the **learner opens to begin** the exercise | the `-starter/` folder |
+| something the **learner opens to begin** the exercise | `starter/` |
 | the **finished answer** to the exercise | `solution/` |
 | something the **instructor builds or shows in a demo video** | `demo/` |
 | **data a skill reads** (a spreadsheet, a list, a reference doc) | that skill's `references/` folder |
@@ -157,15 +161,15 @@ starter/solution/INSTRUCTIONS structure intact:
 
 ```bash
 cp -R m07-market-intelligence m19-my-new-topic
-git mv m19-my-new-topic/competitive-intelligence-agent-starter m19-my-new-topic/my-new-exercise-starter
-# then edit the files inside, and:
+# the copy already has starter/ and solution/ — just edit the files inside:
 git add .
 git commit -m "Add m19-my-new-topic exercise"
 git push
 ```
 
 Name the copy with its own classroom module number (`m19-…`) — check the
-course dictionary for the module's number.
+course dictionary for the module's number. The `starter/` and `solution/`
+subfolders keep their names (don't rename them).
 
 Use `git mv` (not the Finder) to rename folders that are already in git — it
 keeps the file history connected.
