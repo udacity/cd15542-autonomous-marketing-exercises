@@ -22,14 +22,23 @@ exercises here, independently of the course content.
 
 ## 2. The folder structure (and naming rules)
 
-Every exercise lives in **one module folder**, with a starter and a solution
-inside it:
+Every module lives in **one module folder**. Inside it are up to three
+subfolders — one per kind of thing in the module:
 
 ```
 m<NN>-<content-name>/
-├── <exercise-name>-starter/    ← files the learner starts from (+ INSTRUCTIONS.md)
-└── solution/                   ← the finished solution files
+├── <exercise-name>-starter/    ← what the LEARNER is given to start (+ INSTRUCTIONS.md)
+├── solution/                   ← the finished EXERCISE solution
+└── demo/                       ← artifacts the instructor builds/uses on-screen in DEMO videos
 ```
+
+- Not every module has all three. A module with no demo has just
+  `starter/` + `solution/`. A conceptual module with no exercise has no
+  folder here at all.
+- **`demo/` is new for this course** — it gives the files you build live in a
+  demo video a home, instead of zipping them into the starter. If a module
+  has more than one demo, give each its own subfolder inside `demo/`
+  (e.g. `demo/competitor-watch/`).
 
 **Naming rules:**
 
@@ -61,6 +70,51 @@ m<NN>-<content-name>/
 | `m13-specialized-agents` | M13 · Build a Brand-Safety Auditor Agent |
 | `m15-closed-loop` | M15 · Connect Your Agent Fleet to an Ad Platform |
 | `m17-agent-trust` | M17 · Build a Marketing Agent Trust Framework |
+
+### A Skill is a folder, and its data lives in `references/`
+
+A Claude Skill is a **folder** containing a `SKILL.md` plus a `references/`
+subfolder with the files the skill reads. When the `SKILL.md` says
+`Read references/gsj-marketing-ops.xlsx`, that file must actually sit at
+`references/gsj-marketing-ops.xlsx` next to it. So a finished skill looks
+like:
+
+```
+gsj-marketing-ops-brief/
+├── SKILL.md
+└── references/
+    └── gsj-marketing-ops.xlsx
+```
+
+**Do not zip skills together.** Lay each one out as its own folder so the
+tooling (and the learner) can read it directly.
+
+### Worked example: how `m03-marketing-skills` is organized
+
+```
+m03-marketing-skills/
+├── build-marketing-skills-library-starter/   ← the "provided brand context" the learner gets
+│   ├── INSTRUCTIONS.md
+│   ├── brand-voice-guide.md                   (raw inputs — learner builds skills FROM these)
+│   ├── approved-examples.md, email-examples.md, social-examples.md, …
+│   └── gsj-platform-specs.xlsx
+├── solution/                                  ← the three finished skills (the "answer")
+│   ├── gsj-brand-voice/SKILL.md
+│   ├── gsj-product-accuracy/SKILL.md
+│   └── gsj-platform-best-practices/SKILL.md
+└── demo/                                       ← skills built on-screen in the two demo videos
+    ├── gsj-brand-voice-original-video/SKILL.md
+    └── gsj-platform-best-practices/SKILL.md
+```
+
+**Deciding where a file goes — ask "who is this for?"**
+
+| The file is… | It goes in… |
+|---|---|
+| something the **learner opens to begin** the exercise | the `-starter/` folder |
+| the **finished answer** to the exercise | `solution/` |
+| something the **instructor builds or shows in a demo video** | `demo/` |
+| **data a skill reads** (a spreadsheet, a list, a reference doc) | that skill's `references/` folder |
 
 ---
 
