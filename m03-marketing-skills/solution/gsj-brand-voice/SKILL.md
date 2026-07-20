@@ -1,93 +1,83 @@
 ---
-name: gsj-brand-voice
-description: Review, edit, or write marketing copy for Groundswell Juice Co. (GSJ) so it matches the brand voice. Use whenever you are drafting, rewriting, proofing, or brand-checking anything that speaks as Groundswell — emails, Instagram or other social captions, product-launch copy, community or event announcements, packaging and web copy, or customer-service replies — even when the request doesn't say "brand voice." If copy is for Groundswell, run it through this skill.
+name: groundswell-brand-voice
+description: Keeps Groundswell Juice Co.'s brand voice cohesive across social media captions, marketing emails, web copy, menu descriptions, and customer service replies. Use this any time content is being drafted from scratch for Groundswell, or an existing draft needs to be checked/reviewed for tone, terminology, and brand-voice violations before it goes out — even if the user doesn't use the words "brand voice" explicitly (e.g. "does this email sound right," "can you check this post," "write a caption for...").
 ---
 
-# Groundswell Juice Co. — brand voice
+# Groundswell Brand Voice
 
-Groundswell's voice sounds like a knowledgeable neighbor who runs a juice counter and actually explains things, not a marketing team performing excitement. Your job with this skill is to make GSJ copy sound that way: informed, grounded, communal, and honest about tradeoffs.
+Handles two jobs: **drafting** new copy in Groundswell Juice Co.'s house style, and **reviewing** an existing draft for brand-voice violations. The guide in `references/brand-voice-guide.md` is the source of truth — if anything in this file and the guide ever conflict, the guide wins.
 
-The single mistake that breaks this voice is the vague, upbeat marketing line — "eco-friendly," "great for you," "sustainably sourced" — with nothing verifiable under it. Groundswell's audience reads ingredient labels and asks where the cups end up. To them, a claim with no specifics reads as a claim the brand can't back up. Specificity is the whole game.
+First, figure out which job this is:
+- No draft yet (write a caption, email, blurb, menu line, reply) → "Drafting new copy" below.
+- A draft already exists (pasted copy, or an existing post/email/reply that needs a check, cleanup, or opinion on whether it's on-brand) → "Reviewing a draft" below.
 
-## Who we're talking to
+Both jobs are graded against the same standard, covered once here so it isn't duplicated: "Voice rules" and "Hard rules" below.
 
-Informed people who don't need things dumbed down. They read labels, they know what a regenerative farm is, they want to know *which* farm and *why*. Short, punchy, oversimplified copy reads as if the brand doesn't trust them with information, which is the opposite of the goal. Explain things well rather than making them small.
+## Voice rules that apply to every format
 
-## Personality (and the why behind each)
+Pull the full detail from `references/brand-voice-guide.md`; the compressed version:
 
-**People and health first.** Every choice gets filtered through what's actually good for the person drinking it and the person making it, not what's trendy. In practice: explain what an ingredient *does* in the body in plain terms instead of reaching for a label like "superfood."
+- Audience is informed, not casual — explain well, don't dumb down, don't write short punchy copy that reads like it doesn't trust the reader with information.
+- Name things: the farm, the partner, the actual number. A claim without a specific behind it is treated as a form of dishonesty by this brand, not just weak writing. See the Preferred terms table in the guide (e.g. "farm partners" not "suppliers," "compostable in [X] cities" not "eco-friendly").
+- Say what's unfinished. If something only partly works (not every city, not every taste preference), say so plainly rather than smoothing it over.
+- Warm, not performative. Sounds like a neighbor who remembers your order, not a brand voice that's excited because excitement is the house style.
+- Practical about health claims — explain the mechanism, don't call things "superfoods" or make claims that read as medical advice.
+- Never self-congratulatory about baseline responsibility.
 
-**Environmentally responsible, and willing to explain why.** The brand never says "eco-friendly" and moves on. It names the farm, the composting partner, the actual pounds diverted, the number of cities covered. A vague green claim is treated as a form of dishonesty, because it takes credit without evidence.
+## Hard rules — check every piece of copy against these
 
-**Communal.** Groundswell is part of a neighborhood, not a business sitting inside one. It shows up to things, funds things, knows people's names. Copy reflects that: real places, real partners, low-friction invitations.
+- Banned words, ever, in any format: guilt-free, detox, cleanse, elixir, indulge / indulgent, treat yourself, superfood, self-care (as a marketing hook), any girlboss/hustle-culture phrasing.
+- No em dashes. Anywhere, in any copy. Use a period, comma, or parentheses instead.
+- Exclamation points: max one per piece, and often zero. Never stacked.
+- No vague sustainability/health claims left unsupported — "eco-friendly," "sustainably sourced," "clinically proven" (unless there's an actual source), "at our core," or similar phrases that sound good and verify nothing.
 
-**Grounded, not glossy.** No forced enthusiasm, no stacked exclamation points, no em dashes. The tone is a friend who knows the subject explaining something they care about. If we say something is good, it's because we checked, not because enthusiasm is the house style.
+Re-read the copy once specifically hunting for these five things — don't rely on having avoided them while drafting, and don't rely on skimming when reviewing.
 
-## Sounds like / doesn't sound like
+# Drafting new copy
 
-- **Informed, not vague.** Name the farm and why we chose it. Don't say "sustainably sourced" and leave it — that phrase means nothing without specifics.
-- **Warm and communal, not performative.** Talk like a neighbor who remembers your order. Don't gush.
-- **Practical about health, not clinical or preachy.** Say what an ingredient does, plainly. We're not doctors; we inform, we don't diagnose or moralize.
-- **Honest about tradeoffs, not self-congratulatory.** If a cup isn't compostable everywhere yet, say so and explain what we're doing about it. Don't applaud ourselves for basic responsibility like not dumping waste in a river.
+## Before drafting: get the specifics
 
-## Preferred terminology
+Groundswell's voice runs on verifiable detail, not tone. A draft that's warm and grounded but has no farm name, no number, no real mechanism behind a claim will read as off-brand no matter how well it mimics the sentence rhythm. This is the most common way a first draft fails.
 
-Reach for the left column; avoid the right.
+If the input doesn't already contain enough concrete detail to support the copy, ask for it before writing — don't invent specifics (a farm name, a poundage figure, a percentage of cities covered) that weren't given. It's fine to write a slightly shorter piece with real specifics than a fuller one with invented ones. If a genuine detail truly isn't available, write around it honestly (see the "honest about tradeoffs" pattern in the guide) rather than filling the gap with a vague claim.
 
-| Use | Avoid |
-|-----|-------|
-| farm partners (name them when you can) | suppliers, vendors |
-| compostable in [X] cities, recyclable elsewhere | eco-friendly, sustainable (with no specifics) |
-| recovery, replenish | detox, cleanse |
-| neighborhood, this block, this city | market, target demo |
-| community fund, local grant | giving back, philanthropy |
-| we checked / we tested | clinically proven (unless it truly is, with a source) |
+If the output format isn't stated, ask which one it is — the formats below have real structural differences, not just a length difference.
 
-The pattern behind the table: swap the marketing abstraction for the concrete, checkable thing. When you find yourself about to write a category word ("sustainable," "philanthropy"), that's the cue to name the actual farm, number, or program instead.
+## The formats
 
-## Banned words and phrases
+### Social captions
+Read `references/social-examples.md`. 3–4 sentences, no hashtags, no emoji. Open on the fact or the moment, include one concrete specific even at this length, close on a plain confident line rather than a stacked-exclamation CTA.
 
-Never use these. They belong to the hype-wellness register this brand is defined against:
+### Emails
+Read `references/email-examples.md`. Needs: an understated subject line (often framed as "why we did X" / "what X actually means," never a superlative), a plain "Hi," open, a first paragraph that states the news with no windup, middle paragraphs that show the reasoning with names/numbers/places, an acknowledged tradeoff if one exists, and a sign-off that matches the email's mood rather than a generic "Best,".
 
-- Guilt-free
-- Detox / cleanse
-- Elixir
-- Indulge / indulgent
-- Treat yourself
-- Superfood
-- Self-care (as a marketing hook)
-- Girlboss / hustle-culture language
+### Web copy
+No dedicated sample exists for this format, so lean on the guide's "Successful vs. Unsuccessful example" as the model: plain statement of what changed, the specific mechanism behind it, the honest current state including what isn't finished yet, no line that "says nothing verifiable." Match length and structure to what the page needs (a product blurb reads more like a caption; an About/story page reads more like an email body) but the underlying moves — specificity, acknowledged tradeoffs, no inflation — stay constant regardless of page type.
 
-Mechanics, held just as firmly:
+### Menu descriptions
+One sentence. This is the tightest format Groundswell uses, so every word has to earn its place — usually the ingredients plus what one of them actually does, using the "practical about health" pattern (what it does in the body, in plain terms) rather than an adjective ("refreshing," "delicious"). No banned words fit in one sentence anyway, but check regardless.
+Example shape, built from the Repair Red material in the guide: "Tart cherry, beet, ginger, and collagen — tart cherry and ginger both settle a hard workout, beet keeps blood flow moving." (Illustrative only; do not reuse Repair Red copy verbatim across outputs — write fresh copy for whatever product or topic is actually being asked for.)
 
-- **No em dashes, anywhere, in any copy.** Use a period, a comma, or a rewrite. This is non-negotiable and easy to miss, so check for it every time.
-- **At most one exclamation point per piece, and usually zero.** Never stack them. Enthusiasm comes from the substance, not the punctuation.
+### Customer service replies
+Read `references/customer-service-examples.md` for tone calibration — this isn't a fifth format with its own structural rules, it's the same voice addressed to one person instead of an audience. What shifts: acknowledge the specific situation before anything else, offer a concrete remedy (a credit, an amount, a next step) rather than a vague apology, and when the news is bad (a complaint, a "no"), be honest that a tradeoff is a tradeoff rather than either over-apologizing or getting defensive.
 
-## Working modes
+## Drafting workflow
 
-Figure out whether you're being asked to **review**, **edit**, or **write**, and follow the matching approach. When in doubt, ask, but usually the request makes it clear.
+1. Identify the format (social / email / web copy / menu / customer service reply) — ask if it's not stated.
+2. Check whether the input has enough real specifics to write from. If not, ask for them rather than inventing.
+3. Draft using the relevant format pattern above and the matching reference file.
+4. Run the Hard rules check against the draft.
+5. Present the copy. If it's for email or web copy and a subject line / headline is expected, include one in the matching style.
 
-### Review
-Judge the copy against the personality traits, the terminology table, and the banned list, then report specifically. Don't hand back a vague grade like "mostly on brand." Point to the actual lines: quote the phrase, say which principle it violates and why, and offer a concrete in-voice replacement. Flag every banned word, every em dash, every exclamation stack, and every claim that's vague where it should be specific. If the copy is already good, say what's working so it doesn't get edited away later.
+# Reviewing a draft
 
-### Edit
-Preserve the writer's facts and intent; fix the voice. Keep every real specific they gave you (farm names, numbers, dates, city counts) and keep their meaning. Repair the register: cut hype, replace category words with concrete ones, remove em dashes, settle the punctuation.
+The goal is to hand back something the writer can act on quickly: what's off-brand, why, and what to say instead — not a silent full rewrite that hides how much changed or forces them to diff it themselves.
 
-Do not invent facts to sound more specific. If the voice calls for a detail the writer didn't provide — a farm name, a pounds-diverted number, a research citation, a city count — do not make one up. Insert a clearly marked placeholder like `[farm name]` or `[X of Y cities]` and note what's needed. A fabricated specific is worse than an honest gap, because this brand's whole credibility rests on its specifics being real.
+## Review workflow
 
-### Write
-Draft in-voice from the brief. Lead with the reasoning or the actual news, not a teaser. Name real specifics wherever the brief gives them to you. Where a specific is required but unknown, use a marked placeholder (`[farm name]`, `[number] pounds`) rather than filling the gap with a vague claim — a placeholder tells the user exactly what to supply, whereas "sustainably sourced" quietly hides the gap and breaks the voice. Match the length and shape of the channel you're writing for (see the examples below).
-
-## Approved examples
-
-Before finishing a review, edit, or draft, look at `references/approved-examples.md` and calibrate against the piece closest to your channel (email, social caption, or customer service). These are real brand-approved pieces — the clearest picture of the target register, rhythm, and how much specificity the voice expects. Don't copy them; match how they behave. The "same fact, done right vs. wrong" example at the top is the fastest way to recalibrate if a draft feels off.
-
-## Self-check before returning copy
-
-Run this quick pass on anything you're about to hand back:
-
-1. **Em dash scan.** Zero em dashes. Search and confirm.
-2. **Banned-word scan.** None of the banned words or phrases slipped in.
-3. **Exclamation count.** One at most, and only if it earns it. Never stacked.
-4. **Vague-claim check.** Every green or health claim has a specific under it. If something reads like it could appear on any brand's website, make it concrete or cut it.
-5. **Invented-fact check.** Every named specific is one the user actually gave you. Anything you couldn't source is a marked placeholder, not a fabrication.
+1. Identify the format the draft is in (or ask if genuinely ambiguous) so you're checking it against the right structural expectations — a social caption and an email are held to different shapes.
+2. Read `references/brand-voice-guide.md` and, if the format has one, its matching example file (social/email/customer-service) so the comparison is grounded in real examples, not just the compressed Voice rules above.
+3. Go through the draft against the Hard rules checklist first (banned words, em dashes, exclamation points, unsupported claims) — these are unambiguous and quick to flag.
+4. Then check against the Voice rules — vaguer, more judgment-based: is there a real specific behind every claim, is an unfinished/imperfect part being smoothed over, does anything read as performative or self-congratulatory rather than grounded.
+5. Report findings as a list: quote the offending line, name the rule it breaks, and give a specific fix (not just "make this more on-brand"). If the draft is clean, say so plainly rather than inventing nitpicks to seem thorough.
+6. Only produce a full rewritten version if asked for one, or if the violations are pervasive enough that a line-by-line list would be less useful than seeing it fixed. Default to the flag-and-fix list.

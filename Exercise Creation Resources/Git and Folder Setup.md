@@ -121,7 +121,7 @@ m03-marketing-skills/
 | **data a skill reads** (a spreadsheet, a list, a reference doc) | that skill's `references/` folder |
 | a **deliberately broken / error version** of a data file, for a "test your error handling" step | `starter/` (next to the good file) |
 
-### Three things that trip people up
+### A few things that trip people up
 
 - **Input data is provided *populated*, not blank.** If a skill *reads* a file
   (a spreadsheet, a list) to do its job, ship it filled in — that's input the
@@ -138,6 +138,14 @@ m03-marketing-skills/
   identical (the same provided skill + data). That's expected: the real work
   lives in the steps, so put it in `INSTRUCTIONS.md`, not in extra solution
   files.
+- **When an exercise builds several similar things, you don't have to demo
+  every one.** Scaffold it: show one in a **demo**, walk through one in the
+  **solution**, and leave one for the learner to do **independently**. In the
+  solution page, walk through *one* in full and say the others follow the same
+  process — but only claim that when it's actually true (same *kind* of thing,
+  same build steps), not just because they're related. The demo/solution/
+  independent split keeps a multi-part exercise from being three repetitive
+  walk-throughs.
 
 ---
 
