@@ -26,18 +26,24 @@ Every exercise lives in **one module folder**, with a starter and a solution
 inside it:
 
 ```
-<content-name>/
+m<NN>-<content-name>/
 ├── <exercise-name>-starter/    ← files the learner starts from (+ INSTRUCTIONS.md)
 └── solution/                   ← the finished solution files
 ```
 
 **Naming rules:**
 
-- **Use content-based names, not numbers.** `market-intelligence`, not
-  `module-3`. The same exercise can appear in different programs in a
-  different order, so numbers would be misleading.
+- **Prefix the top folder with its classroom module number**, e.g.
+  `m07-market-intelligence`. `NN` is the module's number in the course
+  dictionary (M07 = *Build a Market Intelligence Agent*), so the folder maps
+  1:1 to the classroom and to the tooling's `source/code/M<NN>/`. This is a
+  deliberate choice for this course — it overrides the generic "don't number"
+  note in the repo README.
+- After the prefix, use a **content-based name** (`market-intelligence`), not
+  a generic one (`module-3`).
 - The **starter** folder ends in `-starter` and names the exercise, e.g.
-  `competitive-intelligence-agent-starter`.
+  `competitive-intelligence-agent-starter` (no number — only the top folder
+  carries the number).
 - The **solution** folder is just named `solution`.
 - Keep the `.gitkeep` file in an empty `solution/` folder. **Delete it once
   you add real solution files** — it only exists to keep an empty folder in
@@ -47,14 +53,14 @@ inside it:
 
 | Folder | Course module |
 |---|---|
-| `marketing-skills` | M03 · Author a Marketing Skills Library |
-| `scheduled-routines` | M05 · Schedule a Marketing Operations Routine |
-| `market-intelligence` | M07 · Build a Market Intelligence Agent |
-| `content-pipelines` | M09 · Build an RSA Pipeline |
-| `agent-memory` | M11 · Build a Customer Story Generation Agent |
-| `specialized-agents` | M13 · Build a Brand-Safety Auditor Agent |
-| `closed-loop` | M15 · Connect Your Agent Fleet to an Ad Platform |
-| `agent-trust` | M17 · Build a Marketing Agent Trust Framework |
+| `m03-marketing-skills` | M03 · Author a Marketing Skills Library |
+| `m05-scheduled-routines` | M05 · Schedule a Marketing Operations Routine |
+| `m07-market-intelligence` | M07 · Build a Market Intelligence Agent |
+| `m09-content-pipelines` | M09 · Build an RSA Pipeline |
+| `m11-agent-memory` | M11 · Build a Customer Story Generation Agent |
+| `m13-specialized-agents` | M13 · Build a Brand-Safety Auditor Agent |
+| `m15-closed-loop` | M15 · Connect Your Agent Fleet to an Ad Platform |
+| `m17-agent-trust` | M17 · Build a Marketing Agent Trust Framework |
 
 ---
 
@@ -96,13 +102,16 @@ The 8 folders above are already set up. If you ever need another exercise,
 starter/solution/INSTRUCTIONS structure intact:
 
 ```bash
-cp -R market-intelligence my-new-topic
-git mv my-new-topic/competitive-intelligence-agent-starter my-new-topic/my-new-exercise-starter
+cp -R m07-market-intelligence m19-my-new-topic
+git mv m19-my-new-topic/competitive-intelligence-agent-starter m19-my-new-topic/my-new-exercise-starter
 # then edit the files inside, and:
 git add .
-git commit -m "Add my-new-topic exercise"
+git commit -m "Add m19-my-new-topic exercise"
 git push
 ```
+
+Name the copy with its own classroom module number (`m19-…`) — check the
+course dictionary for the module's number.
 
 Use `git mv` (not the Finder) to rename folders that are already in git — it
 keeps the file history connected.
