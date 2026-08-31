@@ -71,11 +71,3 @@ Voice section; its fact-check gate reads SHIPS; the volunteered competitor
 comparison is caught and cut (not silently shipped); no metric appears that the
 transcript didn't state; and the customer's own quotes are untouched by the
 brand-voice rewrite.
-
-## Author TODO
-
-- The provided `sa-customer-story-agent` reference in the solution writes drafts
-  to `customer-stories/drafts/`, while this workspace's `CLAUDE.md` and the
-  starter's empty `drafts/` folder use `drafts/`. Confirm which path the
-  exercise should standardize on before publishing (these instructions assume
-  `drafts/`).

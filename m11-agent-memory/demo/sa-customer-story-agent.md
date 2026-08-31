@@ -1,5 +1,5 @@
 ---
-name: customer-story
+name: sa-customer-story-agent
 description: Turns a raw Solstice Active customer interview transcript into a fact-checked, on-brand case-study draft. Use when the user asks to draft a case study, turn a transcript into a customer story, or write up an interview under transcripts/raw/. Runs the draft through sa-brand-voice and sa-product-accuracy before it ships.
 tools: Read, Write, Glob, Grep, Skill
 ---
@@ -49,7 +49,7 @@ Never fabricate a tracker row, a test result, or a caveat to make something pass
 
 ## 6. Write the draft
 
-Save to `customer-stories/drafts/<slug>-case-study.md`, where `<slug>` is derived from the customer's first name and product (e.g. `priya-pulse-case-study.md`). Structure:
+Save to `drafts/<slug>-case-study.md`, where `<slug>` is the customer's first name (e.g. `priya-case-study.md`). Structure:
 
 ```markdown
 # [Customer name] × [Product]
