@@ -1,0 +1,30 @@
+{
+  "handle": "@oldtown_renovations",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/oldtown_renovations",
+  "followers": 31000,
+  "engagement_rate": 0.0254,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 720,
+    "avg_comments": 66
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/oldtown_renovations",
+    "engagement": "https://instagram.example.com/oldtown_renovations"
+  },
+  "niche": "Home renovation and restoration in Bellwood's older neighborhoods",
+  "local_relevance": "Highly local. All content documents projects specifically in Bellwood's older neighborhoods, filmed on site.",
+  "sponsored_history": [],
+  "contact": {
+    "value": "office@oldtownreno.example.com",
+    "source": "https://oldtownreno.example.com/contact",
+    "source_type": "business website"
+  },
+  "example_posts": [
+    "Restoring a 1920s front door",
+    "Why we kept the plaster walls",
+    "Budget breakdown: a Ridgefield bathroom"
+  ],
+  "outreach_email": "Hi,\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek on Saturday, October 17, from 1–3 pm. Your recent posts on restoring older homes—especially that 1920s front door and the plaster wall preservation work—show exactly the kind of attention to detail our audience cares about. We'd love for you to feature it if interested.\n\nIf you post about the open house, please label it as a paid partnership.\n\nDetails: 142 Ashgrove Lane, Maple Creek. Saturday, October 17, 1–3 pm. Hosted by Dana Ferris, Bellwood Realty Group.\n\nLet us know if you'd like to feature it.\n\nBest,\nBellwood Realty Group"
+}

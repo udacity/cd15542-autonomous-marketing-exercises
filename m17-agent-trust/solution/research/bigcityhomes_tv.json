@@ -1,0 +1,35 @@
+{
+  "handle": "@bigcityhomes_tv",
+  "platform": "YouTube",
+  "profile_url": "https://youtube.example.com/bigcityhomes_tv",
+  "followers": 410000,
+  "engagement_rate": 0.0254,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 9800,
+    "avg_comments": 600
+  },
+  "sources": {
+    "followers": "https://youtube.example.com/bigcityhomes_tv",
+    "engagement": "https://youtube.example.com/bigcityhomes_tv"
+  },
+  "niche": "Home tours, national audience",
+  "local_relevance": "No local ties; content and audience are national",
+  "sponsored_history": [
+    {
+      "post": "Smart-lock brand segment",
+      "disclosure_shown": "Paid partnership with Lockly"
+    }
+  ],
+  "contact": {
+    "value": "business@bigcityhomes.example.com",
+    "source": "https://bigcityhomes.example.com/business",
+    "source_type": "business website"
+  },
+  "example_posts": [
+    "Touring a $4M Manhattan loft.",
+    "Chicago condo under $500K.",
+    "Five things buyers miss on a tour."
+  ],
+  "outreach_email": "Subject: Open house feature — 142 Ashgrove Lane, Maple Creek\n\nHi,\n\nWe've watched your recent home tours, including your features on Manhattan lofts and Chicago properties. We have an open house in Maple Creek that might interest your audience.\n\n142 Ashgrove Lane opens Saturday, October 17, 2026, from 1–3 pm. If you'd like to visit and feature it with your usual home-tour approach, we'd be interested. We'd just ask that you label any post as a paid partnership.\n\nLet us know if you'd like more details.\n\nBest,\nBellwood Realty Group"
+}

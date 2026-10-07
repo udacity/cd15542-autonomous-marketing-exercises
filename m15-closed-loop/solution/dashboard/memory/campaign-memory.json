@@ -1,0 +1,369 @@
+{
+  "variants": [
+    {
+      "variant_id": "v_5ba7effa",
+      "headline": "Open House at 204 Willowmere Court",
+      "description": "Join us for an open house at 204 Willowmere Court on Saturday, October 17, 2026. This 3-bedroom, 2-bath home offers 1,850 sq ft, and it's move-in ready. The listing agent is Priya Nair of Bellwood Realty Group. Bellwood Realty Group is an Equal Housing Opportunity broker. All properties advertised are available without regard to race, color, religion, sex, disability, familial status, or national origin.",
+      "angle_tags": [
+        "open-house"
+      ],
+      "status": "active",
+      "launched_at": "2026-10-05T19:32:33.389Z",
+      "pulls": 4,
+      "performance": {
+        "impressions": 2022,
+        "clicks": 72,
+        "conversions": 5,
+        "spend": 215.84,
+        "ctr": 0.0356,
+        "cpa": 43.17
+      },
+      "_truth": {
+        "ctr": 0.0286,
+        "conv": 0.065,
+        "cpc": 2.9978774400043022
+      },
+      "events": [
+        {
+          "type": "launched",
+          "at": "2026-10-05T19:32:33.397Z"
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:05:26.663Z",
+          "pull_number": 1
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:34:09.680Z",
+          "pull_number": 2
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:03:12.784Z",
+          "pull_number": 3
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:06:13.886Z",
+          "pull_number": 4
+        }
+      ]
+    },
+    {
+      "variant_id": "v_23990f50",
+      "headline": "Borders the Willowmere Lake Trail",
+      "description": "204 Willowmere Court borders the Willowmere Lake walking trail. The home has 3 bedrooms, 2 bathrooms, and 1,850 sq ft, with low-maintenance fiber-cement siding. Bellwood Realty Group is an Equal Housing Opportunity broker. All properties advertised are available without regard to race, color, religion, sex, disability, familial status, or national origin.",
+      "angle_tags": [
+        "trail-access"
+      ],
+      "status": "active",
+      "launched_at": "2026-10-05T19:32:35.525Z",
+      "pulls": 4,
+      "performance": {
+        "impressions": 2332,
+        "clicks": 57,
+        "conversions": 4,
+        "spend": 133.8,
+        "ctr": 0.0244,
+        "cpa": 33.45
+      },
+      "_truth": {
+        "ctr": 0.026399999999999996,
+        "conv": 0.06,
+        "cpc": 2.3474977474001193
+      },
+      "events": [
+        {
+          "type": "launched",
+          "at": "2026-10-05T19:32:35.525Z"
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:05:28.542Z",
+          "pull_number": 1
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:34:09.940Z",
+          "pull_number": 2
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:03:13.052Z",
+          "pull_number": 3
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:06:13.897Z",
+          "pull_number": 4
+        }
+      ]
+    },
+    {
+      "variant_id": "v_78931fb8",
+      "headline": "$180/Month HOA at 204 Willowmere",
+      "description": "The HOA fee at 204 Willowmere Court is $180/month. The home has 3 bedrooms, 2 bathrooms, and 1,850 sq ft, built in 2015. Bellwood Realty Group is an Equal Housing Opportunity broker. All properties advertised are available without regard to race, color, religion, sex, disability, familial status, or national origin.",
+      "angle_tags": [
+        "low-hoa"
+      ],
+      "status": "active",
+      "launched_at": "2026-10-05T19:32:37.326Z",
+      "pulls": 4,
+      "performance": {
+        "impressions": 2797,
+        "clicks": 93,
+        "conversions": 9,
+        "spend": 231.83,
+        "ctr": 0.0332,
+        "cpa": 25.76
+      },
+      "_truth": {
+        "ctr": 0.037399999999999996,
+        "conv": 0.085,
+        "cpc": 2.4926805150156572
+      },
+      "events": [
+        {
+          "type": "launched",
+          "at": "2026-10-05T19:32:37.327Z"
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:05:29.710Z",
+          "pull_number": 1
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:34:10.302Z",
+          "pull_number": 2
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:03:13.416Z",
+          "pull_number": 3
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:06:14.281Z",
+          "pull_number": 4
+        }
+      ]
+    },
+    {
+      "variant_id": "v_c3aa75c1",
+      "headline": "Meet Priya Nair, Listing Agent",
+      "description": "Priya Nair of Bellwood Realty Group is the listing agent for 204 Willowmere Court, a 3-bedroom, 2-bath home built in 2015. A pre-listing inspection on 8/28/2026 found no outstanding repairs, and the home is move-in ready. Bellwood Realty Group is an Equal Housing Opportunity broker. All properties advertised are available without regard to race, color, religion, sex, disability, familial status, or national origin.",
+      "angle_tags": [
+        "agent-intro"
+      ],
+      "status": "active",
+      "launched_at": "2026-10-05T19:32:38.608Z",
+      "pulls": 4,
+      "performance": {
+        "impressions": 2640,
+        "clicks": 68,
+        "conversions": 4,
+        "spend": 179.76,
+        "ctr": 0.0258,
+        "cpa": 44.94
+      },
+      "_truth": {
+        "ctr": 0.0242,
+        "conv": 0.05500000000000001,
+        "cpc": 2.643610877950872
+      },
+      "events": [
+        {
+          "type": "launched",
+          "at": "2026-10-05T19:32:38.608Z"
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:05:30.709Z",
+          "pull_number": 1
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:34:10.372Z",
+          "pull_number": 2
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:03:13.711Z",
+          "pull_number": 3
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:06:14.673Z",
+          "pull_number": 4
+        }
+      ]
+    },
+    {
+      "variant_id": "v_45b12395",
+      "headline": "204 Willowmere Court: $412,000",
+      "description": "204 Willowmere Court is listed at $412,000. HOA fee: $180/month. Bellwood Realty Group is an Equal Housing Opportunity broker. All properties advertised are available without regard to race, color, religion, sex, disability, familial status, or national origin.",
+      "angle_tags": [
+        "generic-fee"
+      ],
+      "status": "active",
+      "launched_at": "2026-10-05T19:32:40.771Z",
+      "pulls": 4,
+      "performance": {
+        "impressions": 2202,
+        "clicks": 32,
+        "conversions": 0,
+        "spend": 60.81,
+        "ctr": 0.0145,
+        "cpa": null
+      },
+      "_truth": {
+        "ctr": 0.015399999999999999,
+        "conv": 0.034999999999999996,
+        "cpc": 1.9004650292867922
+      },
+      "events": [
+        {
+          "type": "launched",
+          "at": "2026-10-05T19:32:40.771Z"
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:05:33.061Z",
+          "pull_number": 1
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:34:10.560Z",
+          "pull_number": 2
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:03:13.884Z",
+          "pull_number": 3
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:06:14.705Z",
+          "pull_number": 4
+        }
+      ]
+    },
+    {
+      "note": "A bad row for testing validation: conversions logged with no spend. Paste this whole object into the variants list in dashboard/memory/campaign-memory.json, then run brg-campaign-analyst and confirm it flags this row and leaves it out of the analysis.",
+      "variant_id": "v_test_zerospend",
+      "headline": "Open House Saturday — 204 Willowmere Court",
+      "description": "Test row: logged conversions with no matching spend.",
+      "angle_tags": [
+        "open-house"
+      ],
+      "status": "active",
+      "round": 1,
+      "pulls": 2,
+      "performance": {
+        "impressions": 1627,
+        "clicks": 18,
+        "conversions": 2,
+        "spend": 0,
+        "ctr": 0.0111,
+        "cpa": 0
+      },
+      "_truth": {
+        "ctr": 0,
+        "conv": 0,
+        "cpc": 0
+      },
+      "events": [
+        {
+          "type": "launched",
+          "at": "2026-09-28T09:00:00.000Z"
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-05T21:05:33.121Z",
+          "pull_number": 2
+        }
+      ],
+      "excluded": true,
+      "excluded_reason": "Tracking error: 2 conversions logged with $0 spend. Test row, never launched through the platform. Kept in memory for the record; not valid signal. Person decision, round 2."
+    },
+    {
+      "variant_id": "v_7f691c4d",
+      "headline": "$180/Month HOA, Built in 2015",
+      "description": "204 Willowmere Court has a $180/month HOA fee. The home was built in 2015 and has 3 bedrooms, 2 bathrooms, and 1,850 sq ft. Bellwood Realty Group is an Equal Housing Opportunity broker. All properties advertised are available without regard to race, color, religion, sex, disability, familial status, or national origin.",
+      "angle_tags": [
+        "low-hoa"
+      ],
+      "status": "active",
+      "launched_at": "2026-10-05T23:35:56.508Z",
+      "pulls": 2,
+      "performance": {
+        "impressions": 960,
+        "clicks": 35,
+        "conversions": 4,
+        "spend": 89.83,
+        "ctr": 0.0365,
+        "cpa": 22.46
+      },
+      "_truth": {
+        "ctr": 0.037399999999999996,
+        "conv": 0.085,
+        "cpc": 2.5666132152943897
+      },
+      "events": [
+        {
+          "type": "launched",
+          "at": "2026-10-05T23:35:56.510Z"
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:03:14.072Z",
+          "pull_number": 1
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-06T00:06:14.896Z",
+          "pull_number": 2
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "open-house",
+      "confidence": "low",
+      "evidence": "v_5ba7effa only, 4 pulls cumulative: 2,022 impressions, 72 clicks, CTR 3.56%, 5 conversions, spend $215.84, CPA $43.17. Pull 4 alone: 658 impressions, 22 clicks (about 3.34% CTR), 2 conversions, $65.95 spend (about $32.98 CPA). CTR is still the second highest of the valid variants and has held between about 3.3% and 3.7% across all four pulls. CPA improved from $49.96 (3 pulls) to $43.17 but is still the highest or near-highest, and rests on 5 conversions (single digits). v_test_zerospend (also open-house) is excluded in memory by person decision (round 2) as a tracking error (2 conversions, $0 spend) and is not counted here.",
+      "recommendation": "Do not call a winner or loser. CTR strength looks real and CPA is trending toward the pack, but 5 conversions is too few; need roughly 10+ conversions across more pulls before judging whether the CTR converts to affordable CPA.",
+      "listing": "204 Willowmere Court"
+    },
+    {
+      "tag": "trail-access",
+      "confidence": "low",
+      "evidence": "Re-tagged from walk-to-transit to trail-access by person decision (round 2), because the creative is about the Willowmere Lake walking trail, not transit. v_23990f50 only, 4 pulls cumulative: 2,332 impressions, 57 clicks, CTR 2.44%, 4 conversions, spend $133.80, CPA $33.45. Pull 4 alone: 814 impressions, 16 clicks (about 1.97% CTR), 1 conversion at about $37.56. CTR has slipped from 2.70% to 2.44% and CPA has drifted upward from $23.47 to $30.52 to $32.08 to $33.45 as conversions accrued. Only 4 conversions, so CPA is noisy.",
+      "recommendation": "No decision on 4 pulls. Tag matches the creative. Do not run a transit angle: the listing sheet has no approved transit facts. No scale or pause call before 10+ conversions per variant (person decision, round 2). Mid-pack on CPA, below average on CTR; keep watching the CTR slide.",
+      "listing": "204 Willowmere Court"
+    },
+    {
+      "tag": "low-hoa",
+      "confidence": "low",
+      "evidence": "v_78931fb8, 4 pulls cumulative: 2,797 impressions, 93 clicks, CTR 3.32%, 9 conversions, spend $231.83, CPA $25.76. Pull 4 alone: 746 impressions, 30 clicks (about 4.02% CTR), 3 conversions, $74.78 spend (about $24.93 CPA). Lowest or near-lowest CPA of the valid variants at every pull, and the lead has now held for four pulls. 9 conversions is still single digits, one short of the 10+ threshold. Second creative v_7f691c4d, 2 pulls cumulative: 960 impressions, 35 clicks, CTR 3.65%, 4 conversions, spend $89.83, CPA $22.46 (pull 2 alone: 564 impressions, 20 clicks, 2 conversions at about $25.67, in line with pull 1, so no spike). Two creatives pointing the same direction is encouraging, but v_7f691c4d is on 2 pulls and 4 conversions, so it is not yet confirmation; the two creatives are not pooled.",
+      "recommendation": "Best CPA so far and the lead is consistent across four pulls and two creatives, but not confirmed. Keep collecting; do not scale until v_78931fb8 passes 10+ conversions and v_7f691c4d gets more pulls and conversions. Likely to merit a confidence upgrade to medium at the next pull if the CPA holds. Need at least 2 more pulls on v_7f691c4d before comparing the two low-hoa creatives (angle vs. specific variant test).",
+      "listing": "204 Willowmere Court"
+    },
+    {
+      "tag": "agent-intro",
+      "confidence": "low",
+      "evidence": "v_c3aa75c1 only, 4 pulls cumulative: 2,640 impressions, 68 clicks, CTR 2.58%, 4 conversions, spend $179.76, CPA $44.94. Pull 4 alone: 425 impressions, 10 clicks (about 2.35% CTR), 1 conversion at about $26.44. CPA improved from $51.11 but rests on 4 conversions, and the improvement is from a single conversion, so it is noisy. Highest impressions and spend among the original five; CPA still near open-house.",
+      "recommendation": "No decision on 4 pulls. Mid-to-low CTR with high CPA is a pattern to watch; continue collecting before comparing against other angles.",
+      "listing": "204 Willowmere Court"
+    },
+    {
+      "tag": "generic-fee",
+      "confidence": "low",
+      "evidence": "v_45b12395 only, 4 pulls cumulative: 2,202 impressions, 32 clicks, CTR 1.45% (lowest of the valid variants at every pull; pull 4 alone about 1.3%: 304 impressions, 4 clicks), 0 conversions, spend $60.81, CPA null. Consistent with weak performance across four pulls, but 0 conversions on 32 clicks is still thin to call a loser. Its HOA content overlaps the low-hoa variants, which are the stronger framing so far.",
+      "recommendation": "Do not drop on 4 pulls with 0 conversions. Lowest CTR, no conversions and lowest spend make it the first candidate for a person to pause if budget needs freeing, but a loser call needs more clicks and pulls.",
+      "listing": "204 Willowmere Court"
+    }
+  ]
+}

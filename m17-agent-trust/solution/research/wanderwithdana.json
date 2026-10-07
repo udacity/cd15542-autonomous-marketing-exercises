@@ -1,0 +1,35 @@
+{
+  "handle": "@wanderwithdana",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/wanderwithdana",
+  "followers": 138000,
+  "engagement_rate": 0.0338,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 4400,
+    "avg_comments": 260
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/wanderwithdana",
+    "engagement": "https://instagram.example.com/wanderwithdana"
+  },
+  "niche": "Worldwide travel content, budget travel tips, packing, airport lounges",
+  "local_relevance": "No local ties; content focuses on international destinations",
+  "sponsored_history": [
+    {
+      "post": "Carry-on luggage review from Lisbon",
+      "disclosure_shown": "Paid partnership with Tessan Travel"
+    }
+  ],
+  "contact": {
+    "value": "dana@wanderwithdana.example.com",
+    "source": "https://instagram.example.com/wanderwithdana",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "Three days in Kyoto on a budget",
+    "Packing list for a two-week trip",
+    "Best airport lounges this year"
+  ],
+  "outreach_email": "Hi Dana,\n\nWe've been following your travel stories and love how you help your followers explore the world thoughtfully—from budget tips in Kyoto to smart airport choices. Your perspective on travel and lifestyle really resonates.\n\nWe'd like to invite you to feature our open house at 142 Ashgrove Lane in Maple Creek on Saturday, October 17, 2026, from 1–3 pm. While this is a bit outside your usual destinations, we thought your eye for interesting spaces and design might find something worth sharing.\n\nIf you'd be interested in visiting and posting about it, please label any content about the open house as a paid partnership. We're happy to work out the details.\n\nLet us know if this sounds like something you'd consider.\n\nBest,\nBellwood Realty Group"
+}

@@ -1,0 +1,35 @@
+{
+  "handle": "@cityscape_realty_watch",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/cityscape_realty_watch",
+  "followers": 26000,
+  "engagement_rate": 0.0155,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 380,
+    "avg_comments": 22
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/cityscape_realty_watch",
+    "engagement": "https://instagram.example.com/cityscape_realty_watch"
+  },
+  "niche": "National real estate market data and commentary",
+  "local_relevance": "None. Profile bio states 'National real estate news & market data.' Recent posts show national market commentary with no local ties.",
+  "sponsored_history": [
+    {
+      "post": "Mortgage-rate tracker app walkthrough",
+      "disclosure_shown": "#sponsored"
+    }
+  ],
+  "contact": {
+    "value": "editor@cityscaperealty.example.com",
+    "source": "https://cityscaperealty.example.com/contact",
+    "source_type": "business website"
+  },
+  "example_posts": [
+    "September home sales, by region.",
+    "Five charts on mortgage rates.",
+    "What the latest housing starts data means."
+  ],
+  "outreach_email": "Hi there,\n\nWe've seen your posts breaking down mortgage rate trends and regional home sales data. We think there's an opportunity to bring those market insights to life with a real property on the ground.\n\nBellwood Realty Group is hosting an open house at 142 Ashgrove Lane in Maple Creek on Saturday, October 17, 2026, from 1–3 pm, listed by Dana Ferris. If you'd like to feature it with your audience, please label any post as a paid partnership.\n\nLet us know if it interests you.\n\nBest,\nBellwood Realty Group"
+}

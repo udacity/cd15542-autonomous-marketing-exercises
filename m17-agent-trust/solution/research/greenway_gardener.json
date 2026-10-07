@@ -1,0 +1,30 @@
+{
+  "handle": "@greenway_gardener",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/greenway_gardener",
+  "followers": 6800,
+  "engagement_rate": 0.0587,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 350,
+    "avg_comments": 49
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/greenway_gardener",
+    "engagement": "https://instagram.example.com/greenway_gardener"
+  },
+  "niche": "Gardens and yards along the Greenway bike path in Maple Creek",
+  "local_relevance": "Highly local—posts specifically about gardens and yards in Maple Creek along the Greenway bike path, directly tied to Bellwood's service area",
+  "sponsored_history": [],
+  "contact": {
+    "value": "greenwaygardener@example.com",
+    "source": "https://instagram.example.com/greenway_gardener",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "Native plants that survived August along the Greenway",
+    "Front-yard veggie bed on a Maple Creek corner lot",
+    "Fall bulb planting, step by step"
+  ],
+  "outreach_email": "Subject: Open House at 142 Ashgrove Lane—October 17\n\nHi there,\n\nWe've been following your posts about gardens along the Greenway—especially that recent piece on native plants that survived August. Your work really captures what makes Maple Creek special.\n\nWe're hosting an open house at 142 Ashgrove Lane, Saturday, October 17, from 1 to 3 pm. We think your followers might be interested in seeing this home.\n\nIf you'd like to feature the open house, please label any post as a paid partnership. We can discuss details with you directly.\n\nNo pressure either way—just wanted to reach out.\n\nThanks,\nBellwood Realty Group"
+}

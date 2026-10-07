@@ -1,0 +1,35 @@
+{
+  "handle": "@cozycornerhomes",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/cozycornerhomes",
+  "followers": 18300,
+  "engagement_rate": 0.0378,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 640,
+    "avg_comments": 52
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/cozycornerhomes",
+    "engagement": "https://instagram.example.com/cozycornerhomes"
+  },
+  "niche": "Home decor and local Hollow Creek home styling and shops",
+  "local_relevance": "Posts feature a Hollow Creek home and local shops; content is locally tied",
+  "sponsored_history": [
+    {
+      "post": "Loving my new sofa from @hearthline!",
+      "disclosure_shown": "none"
+    }
+  ],
+  "contact": {
+    "value": "hi@cozycornerhomes.example.com",
+    "source": "https://instagram.example.com/cozycornerhomes",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "Fall mantel styling",
+    "Thrift finds from a Hollow Creek estate sale",
+    "A reading nook in a hallway"
+  ],
+  "outreach_email": "Hi,\n\nWe love your eye for cozy home details—especially your fall mantel styling and those thrift finds from the Hollow Creek estate sale. Your posts capture exactly the kind of thoughtful home spaces our clients are looking for.\n\nWould you be interested in featuring our open house at 142 Ashgrove Lane in Maple Creek this Saturday, October 17, from 1–3 pm? Our listing agent Dana Ferris will be hosting, and it could be a great fit for your community.\n\nIf you do share it, please label the post as a paid partnership.\n\nLet us know if you're interested.\n\nThanks,\nBellwood Realty Group"
+}

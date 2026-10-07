@@ -1,0 +1,13 @@
+{
+  "note": "A bad row for testing validation: conversions logged with no spend. Paste this whole object into the variants list in dashboard/memory/campaign-memory.json, then run brg-campaign-analyst and confirm it flags this row and leaves it out of the analysis.",
+  "variant_id": "v_test_zerospend",
+  "headline": "Open House Saturday — 204 Willowmere Court",
+  "description": "Test row: logged conversions with no matching spend.",
+  "angle_tags": ["open-house"],
+  "status": "active",
+  "round": 1,
+  "pulls": 1,
+  "performance": { "impressions": 1200, "clicks": 18, "conversions": 2, "spend": 0.00, "ctr": 0.015, "cpa": null },
+  "_truth": { "ctr": 0, "conv": 0, "cpc": 0 },
+  "events": [{ "type": "launched", "at": "2026-09-28T09:00:00.000Z" }]
+}

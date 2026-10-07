@@ -1,0 +1,30 @@
+{
+  "handle": "@willowmere_walks",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/willowmere_walks",
+  "followers": 9100,
+  "engagement_rate": 0.054,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 430,
+    "avg_comments": 57
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/willowmere_walks",
+    "engagement": "https://instagram.example.com/willowmere_walks"
+  },
+  "niche": "Local walks and exploration around Willowmere Lake, with trail guides, coffee stops, and seasonal observations.",
+  "local_relevance": "Highly local—all content centers on Willowmere Lake and immediate surrounding area.",
+  "sponsored_history": [],
+  "contact": {
+    "value": "willowmerewalks@example.com",
+    "source": "https://instagram.example.com/willowmere_walks",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "The full Willowmere Lake loop, with mile markers.",
+    "Coffee stops near the north trailhead.",
+    "Fall colors on the east side of the lake."
+  ],
+  "outreach_email": "Hi there,\n\nI've been following your posts about the Willowmere Lake trail and the local spots around it—your audience really engages with local exploration.\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek this Saturday, October 17, from 1–3 pm, and we'd like to feature it with your community.\n\nIf you're interested, please label any post about the event as a paid partnership.\n\nLet me know if you'd like more information.\n\nBest,\nBellwood Realty Group"
+}

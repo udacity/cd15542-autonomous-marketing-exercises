@@ -1,0 +1,84 @@
+{
+ "completed": [
+  {
+   "handle": "@wanderwithdana",
+   "status": "scored"
+  },
+  {
+   "handle": "@suburbnest_kate",
+   "status": "scored"
+  },
+  {
+   "handle": "@porchandpatio",
+   "status": "scored"
+  },
+  {
+   "handle": "@localeats_bellwood",
+   "status": "scored"
+  },
+  {
+   "handle": "@fitlife_jordan",
+   "status": "scored"
+  },
+  {
+   "handle": "@bigcityhomes_tv",
+   "status": "out_of_range"
+  },
+  {
+   "handle": "@homeandhearth_hq",
+   "status": "scored"
+  },
+  {
+   "handle": "@bellwood_weekender",
+   "status": "scored"
+  },
+  {
+   "handle": "@thegoldcoastlux",
+   "status": "scored"
+  },
+  {
+   "handle": "@cityscape_realty_watch",
+   "status": "scored"
+  },
+  {
+   "handle": "@glamhome_staging",
+   "status": "scored"
+  },
+  {
+   "handle": "@maplecreek_makes",
+   "status": "scored"
+  },
+  {
+   "handle": "@thefamilymovehome",
+   "status": "scored"
+  },
+  {
+   "handle": "@cozycornerhomes",
+   "status": "check_failed"
+  },
+  {
+   "handle": "@riverside_reno_ray",
+   "status": "check_failed"
+  },
+  {
+   "handle": "@tinyhouse_tia",
+   "status": "out_of_range"
+  },
+  {
+   "handle": "@greenway_gardener",
+   "status": "scored"
+  },
+  {
+   "handle": "@ridgefield_runs",
+   "status": "scored"
+  },
+  {
+   "handle": "@oldtown_renovations",
+   "status": "scored"
+  },
+  {
+   "handle": "@willowmere_walks",
+   "status": "scored"
+  }
+ ]
+}

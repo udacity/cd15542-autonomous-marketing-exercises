@@ -1,0 +1,35 @@
+{
+  "handle": "@fitlife_jordan",
+  "platform": "TikTok",
+  "profile_url": "https://tiktok.example.com/fitlife_jordan",
+  "followers": 89000,
+  "engagement_rate": 0.0252,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 2100,
+    "avg_comments": 140
+  },
+  "sources": {
+    "followers": "https://tiktok.example.com/fitlife_jordan",
+    "engagement": "https://tiktok.example.com/fitlife_jordan"
+  },
+  "niche": "Fitness, supplements, motivation",
+  "local_relevance": "National audience. No local ties.",
+  "sponsored_history": [
+    {
+      "post": "Protein powder taste test",
+      "disclosure_shown": "#ad"
+    }
+  ],
+  "contact": {
+    "value": "team@fitlifejordan.example.com",
+    "source": "https://tiktok.example.com/fitlife_jordan",
+    "source_type": "contact button"
+  },
+  "example_posts": [
+    "20-minute leg day",
+    "What I eat in a day",
+    "Supplement stack for beginners"
+  ],
+  "outreach_email": "Hi Jordan,\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek this Saturday, October 17, from 1–3 pm. We'd love for you to visit and create a post about it for your community if you're interested.\n\nWe've enjoyed your fitness and lifestyle content—especially your posts about wellness and daily routines. Our open house showcases a modern home in the Ashgrove area, and we think your audience might find it interesting.\n\nIf you do share it, we'd ask that you label the post as a paid partnership.\n\nOpen house details:\n142 Ashgrove Lane, Maple Creek\nSaturday, October 17, 2026, 1–3 pm\nHosted by Dana Ferris, Bellwood Realty Group\n\nLet us know if you have any questions. Thanks for considering!\n\nBest,\nBellwood Realty Group"
+}

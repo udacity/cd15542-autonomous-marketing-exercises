@@ -1,0 +1,30 @@
+{
+  "handle": "@ridgefield_runs",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/ridgefield_runs",
+  "followers": 12600,
+  "engagement_rate": 0.048,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 540,
+    "avg_comments": 70
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/ridgefield_runs",
+    "engagement": "https://instagram.example.com/ridgefield_runs"
+  },
+  "niche": "Local running routes and community race events",
+  "local_relevance": "Strong local relevance. Content focuses on Ridgefield running club, local routes around Ridgefield Park, and community events like the Harvest Lane 10K.",
+  "sponsored_history": [],
+  "contact": {
+    "value": "hello@ridgefieldruns.example.com",
+    "source": "https://instagram.example.com/ridgefield_runs",
+    "source_type": "contact button"
+  },
+  "example_posts": [
+    "Saturday 5K loop around Ridgefield Park",
+    "Race recap: the Harvest Lane 10K",
+    "Best routes with shade in summer"
+  ],
+  "outreach_email": "Subject: Ridgefield community open house this Saturday\n\nHi,\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek on Saturday, October 17 from 1–3 pm—in the heart of the neighborhood many of your Saturday meetup runners explore.\n\nWe've followed your posts about local routes and community events like the Harvest Lane 10K, and we thought the Ridgefield running community would want to know about this home.\n\nIf you'd like to share it with your followers, we'd love that. Please label any post as a paid partnership.\n\nDana Ferris from Bellwood Realty Group will be hosting. Feel free to reach out if you have any questions about the property.\n\nThanks,\nBellwood Realty Group"
+}

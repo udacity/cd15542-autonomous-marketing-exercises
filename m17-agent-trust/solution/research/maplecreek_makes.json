@@ -1,0 +1,30 @@
+{
+  "handle": "@maplecreek_makes",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/maplecreek_makes",
+  "followers": 8200,
+  "engagement_rate": 0.0546,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 410,
+    "avg_comments": 38
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/maplecreek_makes",
+    "engagement": "https://instagram.example.com/maplecreek_makes"
+  },
+  "niche": "DIY home projects and renovations, with focus on home updates and building/construction within Maple Creek and Ridgefield area",
+  "local_relevance": "High. Posts tagged Maple Creek and Ridgefield almost every week; all content appears to be about local homes and region-specific challenges (e.g., winter durability).",
+  "sponsored_history": [],
+  "contact": {
+    "value": "hello@maplecreekmakes.example.com",
+    "source": "https://instagram.example.com/maplecreek_makes",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "Rebuilt the porch steps on a 1990s Maple Creek colonial, with a materials list.",
+    "Which exterior paint colors held up through a Ridgefield winter.",
+    "Before and after: garage shelving from one sheet of plywood."
+  ],
+  "outreach_email": "Hi there,\n\nWe love your detailed DIY walkthroughs—especially the piece on exterior paint holding up through a Ridgefield winter. That's exactly the kind of practical home insight our neighbors are looking for.\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek on Saturday, October 17, from 1–3 pm, and we'd like to invite you to feature it. If you post about it, please label it as a paid partnership.\n\nWould you be interested?\n\nAll the best,\nBellwood Realty Group"
+}

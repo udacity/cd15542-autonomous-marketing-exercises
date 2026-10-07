@@ -1,0 +1,30 @@
+{
+  "handle": "@homeandhearth_hq",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/homeandhearth_hq",
+  "followers": 22000,
+  "engagement_rate": 0.02127272727272727,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 450,
+    "avg_comments": 18
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/homeandhearth_hq",
+    "engagement": "https://instagram.example.com/homeandhearth_hq"
+  },
+  "niche": "Reposts home design and home inspiration content from national accounts. Very little original content.",
+  "local_relevance": "National content with no local tie mentioned in profile.",
+  "sponsored_history": [],
+  "contact": {
+    "value": "features@homeandhearthhq.example.com",
+    "source": "https://homeandhearthhq.example.com/submit",
+    "source_type": "business website"
+  },
+  "example_posts": [
+    "Repost: a farmhouse kitchen (via @another_account)",
+    "Repost: a bathroom tile idea (via @tile_daily)",
+    "Repost: 'Which living room would you pick?'"
+  ],
+  "outreach_email": "Hi there,\n\nWe've been following your home inspo account and think your followers would enjoy seeing what we have at 142 Ashgrove Lane in Maple Creek. We're hosting an open house this Saturday, October 17, from 1–3 pm.\n\nIf you'd like to feature it, we can provide photos and details. Just please label it as a paid partnership.\n\nLet us know if you're interested.\n\nBest,\nBellwood Realty Group"
+}

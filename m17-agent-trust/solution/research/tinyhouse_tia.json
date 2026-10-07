@@ -1,0 +1,30 @@
+{
+  "handle": "@tinyhouse_tia",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/tinyhouse_tia",
+  "followers": 2900,
+  "engagement_rate": 0.0748,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 190,
+    "avg_comments": 27
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/tinyhouse_tia",
+    "engagement": "https://instagram.example.com/tinyhouse_tia"
+  },
+  "niche": "Tiny house living, storage solutions, off-grid systems, lifestyle downsizing",
+  "local_relevance": "Lives 30 miles outside Bellwood; niche content focused on tiny house living rather than local area or general home market",
+  "sponsored_history": [],
+  "contact": {
+    "value": "tia@tinyhousetia.example.com",
+    "source": "https://instagram.example.com/tinyhouse_tia",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "How I store a winter wardrobe in 200 sq ft",
+    "Off-grid water setup",
+    "Tiny house parking rules, explained"
+  ],
+  "outreach_email": "Hi Tia,\n\nWe came across your Instagram and love how you make tiny house living practical and accessible. Your posts on creative storage and off-grid systems really show how thoughtfully people can approach smaller spaces.\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek this Saturday, October 17, from 1–3 pm. It's a great property for anyone exploring different ways to live, and we thought your audience might be interested.\n\nIf you'd like to feature it on your account, we'd ask that you label the post as a paid partnership. No pressure either way—just thought it could be a fit.\n\nLet us know if you're interested.\n\nBest,\nBellwood Realty Group"
+}

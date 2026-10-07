@@ -1,0 +1,35 @@
+{
+  "handle": "@thegoldcoastlux",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/thegoldcoastlux",
+  "followers": 142000,
+  "engagement_rate": 0.0289,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 3900,
+    "avg_comments": 210
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/thegoldcoastlux",
+    "engagement": "https://instagram.example.com/thegoldcoastlux"
+  },
+  "niche": "Luxury real estate and high-end interiors; coastal luxury homes across the country",
+  "local_relevance": "No Bellwood-area content; national focus on coastal luxury estates",
+  "sponsored_history": [
+    {
+      "post": "Designer faucet collection in an oceanfront kitchen",
+      "disclosure_shown": "#ad"
+    }
+  ],
+  "contact": {
+    "value": "press@goldcoastlux.example.com",
+    "source": "https://goldcoastlux.example.com/contact",
+    "source_type": "business website"
+  },
+  "example_posts": [
+    "Tour of a $9M oceanfront estate",
+    "Marble trends for 2026",
+    "A penthouse closet reveal"
+  ],
+  "outreach_email": "Hi,\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek this Saturday, October 17, from 1 to 3 pm. We've seen your luxury home tours and your thoughtful posts on marble and design trends—your followers appreciate quality finishes, and we'd love for you to visit if you're interested.\n\nIf you'd like to share the open house with your community, please label any post about it as a paid partnership.\n\nLet us know if you have questions.\n\nBellwood Realty Group"
+}

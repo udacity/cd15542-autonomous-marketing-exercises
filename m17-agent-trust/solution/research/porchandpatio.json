@@ -1,0 +1,30 @@
+{
+  "handle": "@porchandpatio",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/porchandpatio",
+  "followers": 5600,
+  "engagement_rate": 0.0632,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 310,
+    "avg_comments": 44
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/porchandpatio",
+    "engagement": "https://instagram.example.com/porchandpatio"
+  },
+  "niche": "Home and garden content, porch and patio projects, in the Bellwood metro",
+  "local_relevance": "Local to Bellwood metro; profile bio states 'Home & garden in the Bellwood metro' and audience is primarily local",
+  "sponsored_history": [],
+  "contact": {
+    "value": "porchandpatio@example.com",
+    "source": "https://instagram.example.com/porchandpatio",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "Planting a shade bed under a maple",
+    "Patio refresh for under $200",
+    "Fall porch setup on a Ridgefield cape"
+  ],
+  "outreach_email": "Hi Porchandpatio,\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek, Saturday, October 17, 2026, 1–3 pm. We love your porch and patio posts, and we think your followers would be interested.\n\nIf you'd like to feature the open house, please make sure to label any post as a paid partnership.\n\nBest,\nBellwood Realty Group"
+}

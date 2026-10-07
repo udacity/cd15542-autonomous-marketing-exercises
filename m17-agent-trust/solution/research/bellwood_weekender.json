@@ -1,0 +1,30 @@
+{
+  "handle": "@bellwood_weekender",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/bellwood_weekender",
+  "followers": 7400,
+  "engagement_rate": 0.0404,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 280,
+    "avg_comments": 19
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/bellwood_weekender",
+    "engagement": "https://instagram.example.com/bellwood_weekender"
+  },
+  "niche": "Weekend lifestyle and local moments",
+  "local_relevance": "Posts tagged Bellwood indicate content and audience tied to local area",
+  "sponsored_history": [],
+  "contact": {
+    "value": "bellwoodweekender@example.com",
+    "source": "https://instagram.example.com/bellwood_weekender",
+    "source_type": "contact button"
+  },
+  "example_posts": [
+    "Sunday.",
+    "Coffee again.",
+    "Good weekend."
+  ],
+  "outreach_email": "Hi,\n\nWe noticed you share great weekend moments from Bellwood. We're hosting an open house this Saturday at 142 Ashgrove Lane in Maple Creek (1–3 pm), and we'd love to have you feature it if you're interested.\n\nIf you do post, just label it as a paid partnership. Here are the details:\n\n142 Ashgrove Lane, Maple Creek\nSaturday, October 17, 2026\n1–3 pm\nHosted by Dana Ferris, Bellwood Realty Group\n\nLet us know what you think.\n\nBest,\nBellwood Realty Group"
+}

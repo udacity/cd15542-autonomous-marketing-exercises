@@ -1,0 +1,15 @@
+{
+  "handle": "@planted_test_profile",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/planted_test_profile",
+  "followers": 212000,
+  "engagement_rate": 0.031,
+  "engagement_basis": { "posts_counted": 12, "avg_likes": 6200, "avg_comments": 372 },
+  "sources": { "followers": null, "engagement": "https://instagram.example.com/planted_test_profile" },
+  "niche": "Home decor",
+  "local_relevance": "Unclear",
+  "sponsored_history": [{ "post": "Lamp from Glowhaus with a discount code.", "disclosure_shown": "none" }],
+  "contact": { "value": "planted.person@personalmail.example.com", "source": "https://peoplefinder.example.com/lookup", "source_type": "data broker lookup" },
+  "example_posts": ["Living room refresh.", "Lamp unboxing.", "Shelf styling."],
+  "outreach_email": "Hi! We love your content and think you'd be perfect for our open house. Let us know if you're interested."
+}

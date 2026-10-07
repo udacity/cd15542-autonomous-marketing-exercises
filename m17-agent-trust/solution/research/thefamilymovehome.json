@@ -1,0 +1,35 @@
+{
+  "handle": "@thefamilymovehome",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/thefamilymovehome",
+  "followers": 9800,
+  "engagement_rate": 0.0544,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 470,
+    "avg_comments": 63
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/thefamilymovehome",
+    "engagement": "https://instagram.example.com/thefamilymovehome"
+  },
+  "niche": "Home moving, unpacking, and settling into homes in the Maple Creek and Hollow Creek area",
+  "local_relevance": "Strong. Creator explicitly identifies as new to the Bellwood metro in bio, and posts specifically about moving into and setting up homes in Maple Creek and Hollow Creek, which are within Bellwood's service area.",
+  "sponsored_history": [
+    {
+      "post": "Reusable moving boxes from BoxLoop",
+      "disclosure_shown": "Paid partnership with BoxLoop"
+    }
+  ],
+  "contact": {
+    "value": "hello@thefamilymovehome.example.com",
+    "source": "https://instagram.example.com/thefamilymovehome",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "Our first week in a Maple Creek split-level.",
+    "Labeling system for unpacking.",
+    "Local hardware store tour."
+  ],
+  "outreach_email": "Hi there,\n\nWe love your posts about settling into Maple Creek—that split-level tour really captures the excitement of moving into a new home. We thought you might be interested in featuring our open house on Saturday, October 17 from 1–3 pm at 142 Ashgrove Lane in Maple Creek.\n\nIf you'd like to visit and share it with your followers, we'd be grateful. Please label any post about it as a paid partnership.\n\nGet in touch if you're interested. Thanks for all the great local content.\n\nBest,\nBellwood Realty Group"
+}

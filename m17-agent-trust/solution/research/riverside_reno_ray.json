@@ -1,0 +1,30 @@
+{
+  "handle": "@riverside_reno_ray",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/riverside_reno_ray",
+  "followers": null,
+  "engagement_rate": null,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 260,
+    "avg_comments": 31
+  },
+  "sources": {
+    "followers": null,
+    "engagement": "https://instagram.example.com/riverside_reno_ray"
+  },
+  "niche": "Renovation projects in Bellwood's Riverside neighborhood",
+  "local_relevance": "Content is tied to Bellwood's Riverside neighborhood. Specifically documents renovation work on local properties including 1950s homes and classic bungalows in the area.",
+  "sponsored_history": [],
+  "contact": {
+    "value": "ray@riversidereno.example.com",
+    "source": "https://instagram.example.com/riverside_reno_ray",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "Opening up a 1950s kitchen wall",
+    "Refinishing original pine floors",
+    "Before and after: a Riverside bungalow porch"
+  ],
+  "outreach_email": "Hi Ray,\n\nWe've been following your renovation work along the Riverside corridor and love the before-and-afters on those classic bungalow porches.\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek this Saturday, October 17, from 1 to 3 pm. Your followers might be interested, and we'd love to have you share it if you'd like to.\n\nIf you do post about it, please label it as a paid partnership.\n\nLet us know if you're interested.\n\nThanks,\nBellwood Realty Group"
+}

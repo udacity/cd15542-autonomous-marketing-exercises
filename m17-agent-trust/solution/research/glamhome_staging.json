@@ -1,0 +1,35 @@
+{
+  "handle": "@glamhome_staging",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/glamhome_staging",
+  "followers": 121000,
+  "engagement_rate": 0.0244,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 2800,
+    "avg_comments": 150
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/glamhome_staging",
+    "engagement": "https://instagram.example.com/glamhome_staging"
+  },
+  "niche": "High-end home staging and interior design",
+  "local_relevance": "Mostly national staging work, but has occasional Bellwood-area projects",
+  "sponsored_history": [
+    {
+      "post": "Velvet sofa line staged in a model home",
+      "disclosure_shown": "#ad"
+    }
+  ],
+  "contact": {
+    "value": "studio@glamhomestaging.example.com",
+    "source": "https://glamhomestaging.example.com/work-with-us",
+    "source_type": "business website"
+  },
+  "example_posts": [
+    "Staging a $3M model home in Scottsdale",
+    "Gold accents that photograph well",
+    "A Willowmere townhome (local project)"
+  ],
+  "outreach_email": "Hi there,\n\nWe follow your staging work and were impressed by your Willowmere townhome project. We're hosting an open house at 142 Ashgrove Lane in Maple Creek on Saturday, October 17 from 1–3 pm, and we'd love for you to share it with your audience.\n\nIf you're interested, please label any posts about it as a paid partnership.\n\nLet us know.\n\nBellwood Realty Group"
+}

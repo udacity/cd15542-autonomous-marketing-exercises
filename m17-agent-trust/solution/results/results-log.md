@@ -1,0 +1,35 @@
+# Results log
+- @thefamilymovehome | research | brg-influencer-scout | check failed (missing source links)
+- @thefamilymovehome | research-retry | brg-influencer-scout | first attempt interrupted by user; rerun completed, check passed
+- @maplecreek_makes | check | script | pass
+- @suburbnest_kate | check | script | pass
+- @thegoldcoastlux | check | script | pass
+- @wanderwithdana | check | script | pass
+- @localeats_bellwood | check | script | pass
+- @fitlife_jordan | check | script | pass
+- @porchandpatio | check | script | pass
+- @cityscape_realty_watch | check | script | pass
+- @thefamilymovehome | check | script | pass
+- @glamhome_staging | check | script | pass
+- @wanderwithdana | score | brg-campaign-fit-judge | fit 1, personalization 3
+- @suburbnest_kate | score | brg-campaign-fit-judge | fit 5, personalization 4
+- @porchandpatio | score | brg-campaign-fit-judge | fit 5, personalization 2 (review sheet)
+- @localeats_bellwood | score | brg-campaign-fit-judge | fit 4, personalization 2 (review sheet)
+- @fitlife_jordan | score | brg-campaign-fit-judge | fit 1, personalization 2 (review sheet)
+- @bigcityhomes_tv | check | script | out of range (410,000 followers), not scored
+- @homeandhearth_hq | score | brg-campaign-fit-judge | fit 2, personalization 2 (review sheet)
+- @bellwood_weekender | score | brg-campaign-fit-judge | fit 3, personalization 2 (review sheet)
+- @thegoldcoastlux | score | brg-campaign-fit-judge | fit 1, personalization 4
+- @cityscape_realty_watch | score | brg-campaign-fit-judge | fit 1, personalization 4
+- @glamhome_staging | score | brg-campaign-fit-judge | fit 2, personalization 4
+- @maplecreek_makes | score | brg-campaign-fit-judge | fit 5, personalization 5
+- @thefamilymovehome | score | brg-campaign-fit-judge | fit 5, personalization 4
+- @cozycornerhomes | check | script | fail (undisclosed sponsored post)
+- @cozycornerhomes | research-retry | brg-influencer-scout | still failing, not scored, added to review queue
+- @riverside_reno_ray | check | script | fail (follower count missing, no source)
+- @riverside_reno_ray | research-retry | brg-influencer-scout | still failing, not scored, added to review queue
+- @tinyhouse_tia | check | script | out of range (2,900 followers), not scored
+- @greenway_gardener | score | brg-campaign-fit-judge | fit 4, personalization 4
+- @ridgefield_runs | score | brg-campaign-fit-judge | fit 2, personalization 3
+- @oldtown_renovations | score | brg-campaign-fit-judge | fit 5, personalization 5
+- @willowmere_walks | score | brg-campaign-fit-judge | fit 4, personalization 3

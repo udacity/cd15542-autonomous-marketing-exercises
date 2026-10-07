@@ -1,0 +1,30 @@
+{
+  "handle": "@localeats_bellwood",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/localeats_bellwood",
+  "followers": 14900,
+  "engagement_rate": 0.052,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 690,
+    "avg_comments": 88
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/localeats_bellwood",
+    "engagement": "https://instagram.example.com/localeats_bellwood"
+  },
+  "niche": "Restaurant reviews and neighborhood dining/events in Maple Creek, Ridgefield, and Willowmere",
+  "local_relevance": "Strong local relevance—covers Maple Creek, Ridgefield, and Willowmere; shares neighborhood event dates and details; audience is Bellwood-area residents",
+  "sponsored_history": [],
+  "contact": {
+    "value": "eats@localeatsbellwood.example.com",
+    "source": "https://instagram.example.com/localeats_bellwood",
+    "source_type": "profile bio"
+  },
+  "example_posts": [
+    "The new taco spot on Rosewood Green",
+    "Best patio seating in Willowmere this fall",
+    "Saturday farmers market haul and where to park"
+  ],
+  "outreach_email": "Subject: Open house at 142 Ashgrove Lane — Saturday, October 17\n\nHi,\n\nI'm with Bellwood Realty Group, and I wanted to reach out about an upcoming open house in the Maple Creek area. I've seen your posts about local restaurants and neighborhood events, and I think your followers would be interested.\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek this Saturday, October 17, from 1–3 pm. Our listing agent is Dana Ferris, and we'd love to have you visit if you're interested in sharing it with your audience.\n\nIf you post about it, please mark the post as a paid partnership.\n\nNo pressure at all—just thought you might find it worth sharing. Let me know if you have any questions.\n\nThanks,\nBellwood Realty Group"
+}

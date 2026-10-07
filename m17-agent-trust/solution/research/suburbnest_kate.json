@@ -1,0 +1,35 @@
+{
+  "handle": "@suburbnest_kate",
+  "platform": "Instagram",
+  "profile_url": "https://instagram.example.com/suburbnest_kate",
+  "followers": 11400,
+  "engagement_rate": 0.051,
+  "engagement_basis": {
+    "posts_counted": 12,
+    "avg_likes": 520,
+    "avg_comments": 61
+  },
+  "sources": {
+    "followers": "https://instagram.example.com/suburbnest_kate",
+    "engagement": "https://instagram.example.com/suburbnest_kate"
+  },
+  "niche": "Home tours and staging tips, primarily in local Bellwood metro areas",
+  "local_relevance": "High local relevance—creates home-tour content filmed in Hollow Creek, Maple Creek, and Willowmere, all within Bellwood's service area",
+  "sponsored_history": [
+    {
+      "post": "A rug from Loomhaus styled in a Hollow Creek living room",
+      "disclosure_shown": "Paid partnership with Loomhaus"
+    }
+  ],
+  "contact": {
+    "value": "kate@suburbnest.example.com",
+    "source": "https://instagram.example.com/suburbnest_kate",
+    "source_type": "contact button"
+  },
+  "example_posts": [
+    "Walkthrough of a staged 3-bedroom in Hollow Creek",
+    "Five-minute fixes before a listing photo shoot",
+    "How she lights a small living room for video"
+  ],
+  "outreach_email": "Hi Kate,\n\nWe've been following your home-tour content around Maple Creek and Hollow Creek and loved your recent five-minute fixes video. Your staging tips really show how thoughtful prep makes a difference.\n\nWe're hosting an open house at 142 Ashgrove Lane in Maple Creek this Saturday, October 17, from 1–3 pm, and we think your audience would connect with it. Would you be interested in featuring it? If you post about it, just label it as a paid partnership.\n\nLet us know if you'd like more details.\n\nAll the best,\nBellwood Realty Group"
+}
