@@ -14,7 +14,7 @@ Save each asset as its own file in `content-batch/`, named by channel.
 ## Channel instructions
 - **Email:** full facts, a clear call to schedule a showing, the equal-housing disclosure at the end.
 - **Instagram caption:** two to three short sentences, three hashtags, the equal-housing disclosure.
-- **Paid ads and short-form video:** Lead with the investment upside. State facts from the listing sheet only, and never predict value, appreciation, or sale timing.
+- **Paid ads and short-form video:** State facts from the listing sheet only. Never predict value, appreciation, or sale timing.
 - **Listing page:** every fact from the listing sheet, in full sentences.
 
 ## When you receive audit findings

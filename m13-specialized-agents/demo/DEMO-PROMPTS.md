@@ -20,6 +20,8 @@ Use the brg-brand-auditor to audit test-content/brg-test-email.md.
 ```
 Expected: 2 blockers. "3 full baths" (brg-fair-housing-accuracy rule 1; the sheet says 2.5) and "empty nesters" (brg-brand-voice rule 2).
 
+On camera, `brg-test-email.md` still had both planted errors. That version is now `test-content/brg-test-email-planted-errors.md`. To reproduce the demo, run P3 on that file. `brg-test-email.md` is the version after the fixes were applied: 2.5 baths, and the "empty nesters" line removed.
+
 ## Demo 2: Auditing the Cross-Channel Listing Batch
 
 **P4: Audit the batch by channel (fresh session, normal mode)**
@@ -27,7 +29,11 @@ Expected: 2 blockers. "3 full baths" (brg-fair-housing-accuracy rule 1; the shee
 Use the brg-brand-auditor to audit every file in content-batch-demo2, and group the findings by channel.
 ```
 
-**T1: Fix the writer.** In `.claude/agents/brg-listing-writer.md`, replace the paid ads and short-form video line with:
+**T1: Fix the writer.** At the start of Demo 2, the paid ads and short-form video line in `.claude/agents/brg-listing-writer.md` read:
+```
+- **Paid ads and short-form video:** Lead with the investment upside.
+```
+Replace it with the line below. The writer file in this folder already has the fix.
 ```
 - **Paid ads and short-form video:** State facts from the listing sheet only. Never predict value, appreciation, or sale timing.
 ```
