@@ -13,4 +13,4 @@
 ## What the learner builds
 The `brg-listing-writer` subagent, the workflow section of `CLAUDE.md`, one full pipeline run, and the review sheet.
 
-The finished reference is in `../solution-key/`.
+The finished reference, including the answer key `brg-answer-key.md`, is in the workspace on the Solution page.

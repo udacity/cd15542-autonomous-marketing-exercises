@@ -42,4 +42,4 @@ Call `query_memory` once more and compare round one's aggregate numbers to round
 - Did you reject at least one thing on evidence grounds, with a reason on record?
 - Did the auditor catch anything in round two that it didn't need to catch in round one?
 
-Compare with `../solution-key/` **after** you finish. Focus on whether your loop closed and whether you caught what the auditor was built to catch. Your exact angle wording and confidence levels may differ.
+**After** you finish, open the workspace on the Solution page and compare your work with the finished files there. Focus on whether your loop closed and whether you caught what the auditor was built to catch. Your exact angle wording and confidence levels may differ.

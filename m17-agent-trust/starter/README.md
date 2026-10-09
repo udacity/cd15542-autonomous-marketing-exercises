@@ -34,4 +34,4 @@ Bellwood's marketing team uses `brg-influencer-scout` to research local creators
 - `CLAUDE.md` — the project facts. You add the workflow order.
 - `LEARNER-PROMPTS.md` — step-by-step prompts for the whole activity.
 
-When you're done, compare your work with `../solution-key/`.
+When you're done, compare your work with the finished files in the workspace on the Solution page.

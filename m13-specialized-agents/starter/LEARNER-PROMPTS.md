@@ -33,4 +33,4 @@ Let it finish without stepping in.
 - Open the round-2 file for each blocked asset. Did the writer fix exactly what was cited and nothing else?
 - Open the review sheet. Could a person approve or reject each asset without rereading every draft?
 
-Compare with `../solution/brg-answer-key.md` **after** you finish. Focus on whether you caught the blockers. Your wording, and the severity you give smaller issues, may differ.
+**After** you finish, open the workspace on the Solution page and compare your results with `brg-answer-key.md`. Focus on whether you caught the blockers. Your wording, and the severity you give smaller issues, may differ.

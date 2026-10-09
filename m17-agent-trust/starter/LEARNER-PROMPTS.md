@@ -56,4 +56,4 @@ Open `results/results-log.md`, `results/review-queue.md`, and `results/review-sh
 - Which emails need a person to rewrite them?
 - Is anything set to send without a person approving it? (It shouldn't be.)
 
-When you're done, compare your work with `../solution-key/`. Your judge's scores may differ a little. The checker's results won't.
+When you're done, compare your work with the finished files in the workspace on the Solution page. Your judge's scores may differ a little. The checker's results won't.

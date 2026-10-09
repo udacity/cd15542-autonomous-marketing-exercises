@@ -37,4 +37,4 @@ Open this folder in VS Code and open a terminal. Make sure the terminal is in th
 ## What you do
 Draft the round-one angles, run them through the auditor before anything launches, then run the loop for two rounds: launch → pull performance → validate → update memory → propose → approve or reject → repeat.
 
-When you're done, compare your work with `../solution-key/`.
+When you're done, compare your work with the finished files in the workspace on the Solution page.

@@ -1,7 +1,13 @@
-# Module 13 Solution Record — Internal Only, Live-Build Recording Copy
+# Module 13 Solution: Writer-and-Auditor Pipeline (204 Willowmere Court)
 
-Not a deliverable. Not `starter/`, not `solution-key/` — this is a clean "before" copy of the Solution scenario, for recording the Solution walkthrough video live, the same way `instructor-demo/` is the live-build copy for Demo 1.
+This folder is the finished reference for the Module 13 exercise. Open it after you've finished your own run.
 
-Record here, not in `solution-key/`: `CLAUDE.md`'s workflow section is blank, and there's no `brg-listing-writer.md` yet — both get built live on camera, same as the script's Solution section walks through. `solution-key/` stays untouched as the finished answer key and stays what a learner's own work gets checked against — don't treat this folder as a substitute for it.
+## What's here
+- `.claude/agents/brg-listing-writer.md` and `.claude/agents/brg-brand-auditor.md`: the two subagents.
+- `.claude/skills/`: the `brg-brand-voice` and `brg-fair-housing-accuracy` skills.
+- `CLAUDE.md`: the Facts section plus the completed workflow rule.
+- `outputs/round-1/` and `outputs/round-2/`: the writer's first drafts and its revisions of the blocked assets.
+- `review/brg-review-sheet.md`: the finished review sheet.
+- `brg-answer-key.md`: the blockers to expect, the expected result, and the variations that are still correct.
 
-If this folder gets out of sync with `starter/` (a fix lands in one but not the other), re-copy from `starter/` rather than patching by hand.
+Live runs differ. Check your work against the blockers and the expected result in `brg-answer-key.md`, not against the exact wording of these drafts.
