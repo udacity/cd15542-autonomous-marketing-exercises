@@ -1,0 +1,13 @@
+{
+  "name": "bellwood-module-15-mock-ad-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Local mock ad platform MCP server for Module 15's closed-loop optimization exercise (launch variants, pull performance, query memory, regenerate) without any external ad account. Configured with Bellwood Realty Group's listing-campaign angle tags.",
+  "main": "server.js",
+  "scripts": {
+    "dashboard": "node dashboard-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}

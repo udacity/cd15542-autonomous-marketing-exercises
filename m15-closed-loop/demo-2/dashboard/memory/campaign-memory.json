@@ -1,0 +1,48 @@
+{
+  "variants": [
+    {
+      "variant_id": "v_seed_virtualtour",
+      "headline": "Walk Through 142 Ashgrove Lane From Anywhere",
+      "description": "3D virtual tour, updated kitchen and primary bath.",
+      "angle_tags": [
+        "virtual-tour"
+      ],
+      "status": "active",
+      "round": 1,
+      "pulls": 2,
+      "performance": {
+        "impressions": 2414,
+        "clicks": 60,
+        "conversions": 3,
+        "spend": 105,
+        "ctr": 0.0249,
+        "cpa": 35
+      },
+      "_truth": {
+        "ctr": 0.0352,
+        "conv": 0.08,
+        "cpc": 1.75
+      },
+      "events": [
+        {
+          "type": "launched",
+          "at": "2026-09-22T09:00:00.000Z"
+        },
+        {
+          "type": "performance_pull",
+          "at": "2026-10-02T20:15:30.411Z",
+          "pull_number": 2
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "virtual-tour",
+      "listing": "142 Ashgrove Lane",
+      "confidence": "low",
+      "evidence": "Two pulls, one variant (v_seed_virtualtour), for 142 Ashgrove Lane. Pull 1: 2,100 impressions, 48 clicks, 2 conversions, $84 spend, 2.30% CTR, $42 CPA. Pull 2 (cumulative): 2,414 impressions, 60 clicks, 3 conversions, $105 spend, 2.49% CTR, $35 CPA. Direction is mildly positive (CTR up, CPA down), but the CPA move rests on one added conversion, total conversions are still single digits, and there is no other angle to compare against.",
+      "recommendation": "Keep watching; do not scale on two pulls and 3 conversions. Need more pulls, well beyond single-digit conversions, and at least one other angle tag run like-for-like before calling this angle a winner or loser."
+    }
+  ]
+}

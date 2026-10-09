@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Performance Console — Mock Ad Platform</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --border: rgba(11,11,11,0.10);
+    --seq-100: #cde2fb;
+    --seq-400: #3987e5;
+    --seq-500: #256abf;
+    --good: #0ca30c;
+    --warning: #fab219;
+    --critical: #d03b3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --border: rgba(255,255,255,0.10);
+      --seq-100: #184f95;
+      --seq-400: #3987e5;
+      --seq-500: #5598e7;
+      --good: #0ca30c;
+      --warning: #fab219;
+      --critical: #e66767;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 32px 24px 64px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin-bottom: 6px; flex-wrap: wrap; }
+  h1 { font-size: 1.3rem; margin: 0; }
+  .status-line { font-size: 0.8rem; color: var(--muted); margin-bottom: 28px; }
+  .status-line .dot { display:inline-block; width:7px; height:7px; border-radius:99px; background: var(--good); margin-right:6px; }
+
+  .panel { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 20px 22px; margin-bottom: 20px; }
+  .panel h2 { font-size: 0.95rem; margin: 0 0 16px; color: var(--text-primary); }
+  .empty { color: var(--muted); font-size: 0.9rem; padding: 8px 0; }
+
+  /* tag bar chart */
+  .bar-row { display: grid; grid-template-columns: 140px 1fr 64px; align-items: center; gap: 12px; padding: 7px 0; }
+  .bar-row .tag { font-size: 0.85rem; color: var(--text-secondary); }
+  .bar-track { position: relative; height: 18px; background: var(--seq-100); border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; background: var(--seq-400); border-radius: 3px; transition: width 0.4s ease; }
+  .bar-row .val { font-variant-numeric: tabular-nums; font-size: 0.82rem; text-align: right; color: var(--text-primary); }
+
+  /* variants table */
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--grid); }
+  th { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 600; }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; }
+  tr:last-child td { border-bottom: none; }
+  .table-wrap { overflow-x: auto; }
+
+  .pill { display: inline-flex; align-items: center; gap: 5px; font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; }
+  .pill.active { background: color-mix(in srgb, var(--good) 16%, transparent); color: var(--good); }
+  .pill.paused { background: color-mix(in srgb, var(--muted) 20%, transparent); color: var(--muted); }
+  .pill.good::before { content: "●"; }
+  .pill.warning { background: color-mix(in srgb, var(--warning) 22%, transparent); color: #8a5a00; }
+  .pill.critical { background: color-mix(in srgb, var(--critical) 16%, transparent); color: var(--critical); }
+  @media (prefers-color-scheme: dark) {
+    .pill.warning { color: var(--warning); }
+  }
+
+  .tags { display: flex; gap: 4px; flex-wrap: wrap; }
+  .tagchip { font-size: 0.7rem; color: var(--text-secondary); background: var(--page); border: 1px solid var(--grid); padding: 1px 7px; border-radius: 99px; }
+
+  .refresh-note { font-size: 0.75rem; color: var(--muted); margin-top: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Performance Console</h1>
+  </header>
+  <div class="status-line"><span class="dot"></span><span id="statusText">Watching memory/campaign-memory.json — updates automatically as you launch and pull.</span></div>
+
+  <div class="panel">
+    <h2>Performance by angle tag</h2>
+    <div id="tagChart"><div class="empty">No variants launched yet — run launch_variant to get started.</div></div>
+    <div class="refresh-note">Bar length = average CTR across variants carrying that tag.</div>
+  </div>
+
+  <div class="panel">
+    <h2>All variants</h2>
+    <div class="table-wrap">
+      <table id="variantsTable">
+        <thead>
+          <tr><th>Headline</th><th>Tags</th><th>Status</th><th class="num">Pulls</th><th class="num">CTR</th><th class="num">CPA</th></tr>
+        </thead>
+        <tbody id="variantsBody">
+          <tr><td colspan="6" class="empty">Nothing here yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+  function fmtPct(n) { return n == null ? "—" : (n * 100).toFixed(1) + "%"; }
+  function fmtMoney(n) { return n == null ? "—" : "$" + n.toFixed(2); }
+
+  function cpaStatusClass(cpa, avgCpa) {
+    if (cpa == null || avgCpa == null) return "";
+    if (cpa <= avgCpa * 0.85) return "good";
+    if (cpa >= avgCpa * 1.25) return "critical";
+    return "warning";
+  }
+
+  async function refresh() {
+    let data;
+    try {
+      const res = await fetch("/api/memory", { cache: "no-store" });
+      data = await res.json();
+    } catch {
+      document.getElementById("statusText").textContent = "Can't reach the dashboard server — is dashboard-server.js still running?";
+      return;
+    }
+    const variants = data.variants || [];
+    document.getElementById("statusText").textContent =
+      variants.length
+        ? `${variants.length} variant${variants.length === 1 ? "" : "s"} launched — auto-refreshing every 4s.`
+        : "Watching memory/campaign-memory.json — updates automatically as you launch and pull.";
+
+    // aggregate by tag
+    const byTag = {};
+    for (const v of variants) {
+      for (const t of (v.angle_tags || [])) {
+        byTag[t] ??= { clicks: 0, impressions: 0 };
+        byTag[t].clicks += v.performance?.clicks || 0;
+        byTag[t].impressions += v.performance?.impressions || 0;
+      }
+    }
+    const tagRows = Object.entries(byTag)
+      .map(([tag, s]) => ({ tag, ctr: s.impressions ? s.clicks / s.impressions : 0 }))
+      .sort((a, b) => b.ctr - a.ctr);
+
+    const chartEl = document.getElementById("tagChart");
+    if (!tagRows.length) {
+      chartEl.innerHTML = '<div class="empty">No variants launched yet — run launch_variant to get started.</div>';
+    } else {
+      const maxCtr = Math.max(...tagRows.map((r) => r.ctr), 0.0001);
+      chartEl.innerHTML = tagRows.map((r) => `
+        <div class="bar-row">
+          <div class="tag">${r.tag}</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.max(2, (r.ctr / maxCtr) * 100)}%"></div></div>
+          <div class="val">${fmtPct(r.ctr)}</div>
+        </div>
+      `).join("");
+    }
+
+    // overall avg CPA for status coloring
+    const cpas = variants.map((v) => v.performance?.cpa).filter((x) => x != null);
+    const avgCpa = cpas.length ? cpas.reduce((a, b) => a + b, 0) / cpas.length : null;
+
+    const body = document.getElementById("variantsBody");
+    if (!variants.length) {
+      body.innerHTML = '<tr><td colspan="6" class="empty">Nothing here yet.</td></tr>';
+    } else {
+      body.innerHTML = variants.map((v) => {
+        const cls = cpaStatusClass(v.performance?.cpa, avgCpa);
+        return `
+        <tr>
+          <td>${v.headline}</td>
+          <td><div class="tags">${(v.angle_tags || []).map((t) => `<span class="tagchip">${t}</span>`).join("")}</div></td>
+          <td><span class="pill ${v.status}">${v.status}</span></td>
+          <td class="num">${v.pulls}</td>
+          <td class="num">${fmtPct(v.performance?.ctr)}</td>
+          <td class="num">${v.performance?.cpa != null ? `<span class="pill ${cls}">${fmtMoney(v.performance.cpa)}</span>` : "—"}</td>
+        </tr>`;
+      }).join("");
+    }
+  }
+
+  refresh();
+  setInterval(refresh, 4000);
+</script>
+</body>
+</html>
