@@ -1,0 +1,20 @@
+{
+  "note": "Five weeks of replayed rounds for the context-rot demo. Copy this over dashboard/memory/campaign-memory.json before Demo 2's replay segment, then restore the seeded starting file afterward.",
+  "variants": [
+    { "variant_id": "v_w1_virtualtour", "headline": "Walk Through 142 Ashgrove Lane From Anywhere", "angle_tags": ["virtual-tour"], "status": "active", "round": 1, "pulls": 2, "performance": { "impressions": 4100, "clicks": 118, "conversions": 7, "spend": 178.00, "ctr": 0.029, "cpa": 25.43 } },
+    { "variant_id": "v_w2_virtualtour", "headline": "See Every Room Before You Visit", "angle_tags": ["virtual-tour"], "status": "active", "round": 2, "pulls": 2, "performance": { "impressions": 4200, "clicks": 122, "conversions": 8, "spend": 180.00, "ctr": 0.029, "cpa": 22.50 } },
+    { "variant_id": "v_w3_virtualtour", "headline": "Tour It From Your Couch", "angle_tags": ["virtual-tour"], "status": "active", "round": 3, "pulls": 2, "performance": { "impressions": 4150, "clicks": 120, "conversions": 8, "spend": 179.00, "ctr": 0.029, "cpa": 22.38 } },
+    { "variant_id": "v_w1_neighborhood", "headline": "Maple Creek Schools, 5 Minutes Away", "angle_tags": ["neighborhood-highlight"], "status": "active", "round": 1, "pulls": 2, "performance": { "impressions": 4000, "clicks": 100, "conversions": 5, "spend": 160.00, "ctr": 0.025, "cpa": 32.00 } }
+  ],
+  "lessons": [
+    { "tag": "virtual-tour", "confidence": "medium", "evidence": "Week 1: 2.9% CTR, $25.43 CPA.", "recommendation": "Virtual tour performs well; continue testing." },
+    { "tag": "virtual-tour", "confidence": "medium", "evidence": "Week 2: 2.9% CTR, $22.50 CPA.", "recommendation": "Virtual tour angle continues to perform; keep running it." },
+    { "tag": "virtual-tour", "confidence": "medium", "evidence": "Week 3: 2.9% CTR, $22.38 CPA.", "recommendation": "Virtual tour still a strong performer; recommend continuing." },
+    {
+      "tag": "neighborhood-highlight",
+      "confidence": "high",
+      "evidence": "Week 1: 2.5% CTR, $32.00 CPA, citing Maple Creek's spring open-enrollment window.",
+      "recommendation": "STALE — the open-enrollment window this lesson cites closed months ago. The underlying claim is no longer current and shouldn't keep steering new copy."
+    }
+  ]
+}

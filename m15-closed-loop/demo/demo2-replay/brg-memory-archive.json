@@ -1,0 +1,13 @@
+{
+  "note": "Archive for lessons pruned from dashboard/memory/campaign-memory.json.",
+  "archived_lessons": [
+    {
+      "tag": "neighborhood-highlight",
+      "confidence": "high",
+      "evidence": "Week 1: 2.5% CTR, $32.00 CPA, citing Maple Creek's spring open-enrollment window.",
+      "recommendation": "STALE — the open-enrollment window this lesson cites closed months ago. The underlying claim is no longer current and shouldn't keep steering new copy.",
+      "archived_on": "2026-10-02",
+      "archived_reason": "Stale: the Maple Creek open-enrollment window it cites closed months ago, so the claim is no longer current."
+    }
+  ]
+}
