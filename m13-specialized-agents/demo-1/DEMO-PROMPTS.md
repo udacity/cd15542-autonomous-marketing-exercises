@@ -9,7 +9,7 @@ Create a subagent called brg-brand-auditor. It only reviews marketing content. B
 
 **P2: Answer to the clarifying question**
 ```
-Flag it as unverified and leave the decision to a person. Don't fill the gap with general knowledge about real estate. Use the opus model.
+Flag it as unverified and leave the decision to a person. Don't fill the gap with general knowledge about real estate. Use the sonnet model.
 ```
 
 **P3: Audit the test email**
