@@ -37,8 +37,9 @@ m<NN>-<content-name>/
   folder here at all.
 - **`demo/` is new for this course** — it gives the files you build live in a
   demo video a home, instead of zipping them into the starter. If a module
-  has more than one demo, give each its own subfolder inside `demo/`
-  (e.g. `demo/competitor-watch/`).
+  has more than one demo, use `demo-1/` and `demo-2/` instead of `demo/`.
+  Each holds the files in the state that demo's video starts from, plus a
+  `DEMO-PROMPTS.md` with the prompts to run.
 
 **Naming rules:**
 
@@ -51,7 +52,7 @@ m<NN>-<content-name>/
 - After the prefix, use a **content-based name** (`market-intelligence`), not
   a generic one (`module-3`).
 - **The three subfolders are named exactly `starter/`, `solution/`, and
-  `demo/`** — nothing else. Don't put the exercise name on them (no
+  `demo/`** (or `demo-1/` and `demo-2/` for two demos) — nothing else. Don't put the exercise name on them (no
   `build-skills-starter`). The tooling classifies every file by looking for
   the words `demo`, `solution`, or `starter` *anywhere in its path* (in that
   priority order), so a folder whose name is exactly the slot keyword is the
@@ -106,9 +107,12 @@ m03-marketing-skills/
 │   ├── gsj-brand-voice/SKILL.md
 │   ├── gsj-product-accuracy/SKILL.md
 │   └── gsj-platform-best-practices/SKILL.md
-└── demo/                                       ← skills built on-screen in the two demo videos
-    ├── gsj-brand-voice/SKILL.md
-    └── gsj-platform-best-practices/SKILL.md
+├── demo-1/                                     ← start state for Demo 1 (brand voice skill not built yet)
+│   ├── DEMO-PROMPTS.md
+│   └── brand-voice-guide.md, email-examples.md, social-examples.md, …
+└── demo-2/                                     ← start state for Demo 2 (product accuracy update)
+    ├── DEMO-PROMPTS.md
+    └── .claude/skills/gsj-brand-voice/, .claude/skills/gsj-product-accuracy/
 ```
 
 **Deciding where a file goes — ask "who is this for?"**
