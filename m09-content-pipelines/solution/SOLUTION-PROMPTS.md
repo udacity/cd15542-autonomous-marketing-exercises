@@ -9,7 +9,17 @@ I need to build the two agents, headlines, and descriptions for Google's Respons
 They should work the way CLAUDE.md describes. Before you create anything, look at what's already set up in this project (the skills, the momentum launch brief) and figure out what each agent actually needs: what it should read, what it's allowed to touch, and how it can prove a headline or description actually fits Google's limits instead of guessing. Ask me anything that's unclear, then show me the plan before writing the files. The agent should follow our file naming structure, with the sa- prefix.
 ```
 
-**P2: Unique CSV file names**
+**P2: Check the CSV output (reply to the plan)**
+```
+The final output will be a .csv file. Will this prevent that from taking place?
+```
+
+**P3: Set each agent's model (reply to the plan)**
+```
+The model for headlines should be Sonnet, but for the descriptions agent should be Haiku.
+```
+
+**P4: Unique CSV file names**
 ```
 For each output for the .csv, give it a unique file name using the date, and if something is output on the same date, then add a timestamp so that we don't overwrite files. Update the agent to reflect that information.
 ```
