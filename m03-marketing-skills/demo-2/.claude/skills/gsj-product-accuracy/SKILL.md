@@ -55,11 +55,11 @@ Work through every claim in the copy in this order.
 
 4. **Check for upgrades / overreach.** An approved claim pushed past its stated limit becomes a
    violation. Use the tracker's "Limits" column: A1 "supports recovery" upgraded to "cures soreness"
-   or "clinically proven" → violation; A5 "compostable in 47 of 55 cities" inflated to "compostable
+   or "clinically proven" → violation; A5 "compostable in 40 of 55 cities" inflated to "compostable
    everywhere" or "most cities" → violation. Flag as **UPGRADE/OVERREACH** with the limit it broke.
 
 5. **Check required caveats.** Some approvals are conditional, not standalone:
-   - A6 recycling claim must be **paired with the compost-coverage caveat** (47 of 55).
+   - A6 recycling claim must be **paired with the compost-coverage caveat** (40 of 55).
    - A5 composting must **state the specific number**, never "most"/"all."
    - A4 sourcing must **name the farm and location** (Traverse City family farm).
    - A7's ~900 lbs figure is **Riverside-only** — do not apply it to any other city.
@@ -109,7 +109,7 @@ because the brand's credibility rests on its specifics being real. An unknown sp
 - **Golden Hour has no tracker rows.** Any health claim about it (turmeric, mango, pineapple) is
   automatically UNVERIFIED until marketing adds approved rows. This will recur — flag it every time
   rather than reasoning from general knowledge about turmeric.
-- **Facts are time-bound.** "47 of 55 cities, as of this spring" and "~900 lbs last year" drift. If
+- **Facts are time-bound.** "40 of 55 cities, as of this spring" and "~900 lbs last year" drift. If
   copy restates a figure, confirm it against the current tracker/product-facts dates; a number that
   was right last quarter can be stale now.
 - **Location generalization.** Riverside's partner (Riverside Conservation Group) and its figure are
