@@ -10,7 +10,9 @@ reporting task runs on its own without you.
 ## What you're given
 
 - **`gsj-marketing-ops-brief/`** — the skill to schedule. You are *not*
-  authoring this skill; your job is to schedule it.
+  authoring this skill; your job is to schedule it. It is installed in
+  `.claude/skills/gsj-marketing-ops-brief/` so Claude Code finds it from this
+  folder; the top-level folder is a copy to browse.
   - `SKILL.md` — reads the ops data and produces a four-section brief
     (Campaign Status, Content Pipeline, Blockers, Needs Decision).
   - `references/gsj-marketing-ops.xlsx` — this week's marketing-operations
@@ -44,7 +46,8 @@ reporting task runs on its own without you.
 7. **Test before you rely on it.** Manually run the routine once and confirm
    the brief appears in your repo.
    - **Optional — prove your alerts work:** swap in
-     `references/gsj-marketing-ops-ERROR.xlsx` (in place of the good file) and
+     `references/gsj-marketing-ops-ERROR.xlsx` (in place of the good file, in
+     the installed copy under `.claude/skills/`) and
      run again. Confirm your **failure notification actually fires** — a
      scheduled routine is only as trustworthy as its alerting.
 

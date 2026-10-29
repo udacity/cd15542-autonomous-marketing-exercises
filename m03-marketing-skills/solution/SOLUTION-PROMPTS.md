@@ -2,7 +2,7 @@
 
 Run the steps below in order from this folder in Claude Code to follow along with the solution video.
 
-First, create a `gsj-platform-best-practices/references/` folder and put `gsj-platform-specs.xlsx` (from `starter/`) in it.
+The brand voice and product accuracy skills from the demos are installed in `.claude/skills/`, and `gsj-platform-specs.xlsx` is already in `.claude/skills/gsj-platform-best-practices/references/`. That folder also holds the finished skill. To build it yourself as in the video, delete `.claude/skills/gsj-platform-best-practices/SKILL.md` first.
 
 **P1: Create the skill**
 ```

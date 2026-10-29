@@ -2,7 +2,7 @@
 
 Run the steps below in order from this folder in Claude Code to follow along with the solution video.
 
-First, create the `gsj-marketing-ops` GitHub repo, turn on notifications, create a fine-grained personal access token for that repo, and add the GitHub MCP server, as described in `starter/INSTRUCTIONS.md`. Run `/mcp` to confirm it's connected.
+First, create the `gsj-marketing-ops` GitHub repo, turn on notifications, create a fine-grained personal access token for that repo, and add the GitHub MCP server, as described in `starter/INSTRUCTIONS.md`. Run `/mcp` to confirm it's connected. The `gsj-marketing-ops-brief` skill is installed in `.claude/skills/`, so Claude Code finds it from this folder.
 
 **P1: Read-only connection test**
 ```
