@@ -10,7 +10,11 @@ Make a new skill called GSJ Brand Voice. It should review, edit, or write market
 ```
 When asked where to install the skill, choose this project.
 
-**P2: Test the skill (invoke it with `/`, then paste a draft caption after the prompt)**
+**P2: Test the skill (invoke it with `/`, then paste the sample caption after the prompt)**
 ```
 Review this draft caption and flag anything off-brand.
+```
+Sample caption:
+```
+Great news — our cups are now 100% sustainable and compostable everywhere! We've always put the planet first, and this proves it. Clinically proven to break down faster than any cup on the market.
 ```
